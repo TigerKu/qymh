@@ -1,0 +1,51 @@
+{include file="common/header"}
+
+    <section>
+        <!-- <img src="/public/pc/img/9.png" alt="" class="page-img"> -->
+            <img src="{$d['thumb']}" class="page-img">
+        
+        <div class="page">
+            <div class="page-about-title">员工展示</div>
+            <div class="page-about-con">
+                <ul class="staff-list">
+                    {volist name='nav' id="nn"}
+                    <li>
+                        <a href="{:url('index/detail_nav',['nav_id'=>$nn.nav_id])}">
+                            <img src="{$nn.document}" alt="" style="width: 250px;height: 350px">
+                            <div>姓名:{$nn.title}</div>
+                            <div>单位:{$nn.profile}</div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+
+
+             <style type="text/css">
+                      .pages_other {margin: 20px auto;text-align: center; height: 30px}
+                    .pages_other > .pagination {float: left;left: 50%;position: relative;}
+                    .pages_other > .pagination > li {background: #bbb;float: left;margin: 0 5px;position: relative;right: 50%; height: 30px; line-height: 30px;padding:0;}
+                    .pages_other > .pagination > li.active {background-color: #9a443b;}
+                    .pages_other > .pagination > li:hover>a{border-bottom: none !important}
+                    .pages_other > .pagination > li > span,.pages_other > .pagination > li > a {
+                        color: red;padding: 0 10px; display: block;height: 30px; line-height: 30px;
+                    }
+                    .staff-list{
+                        overflow: hidden;
+                    }
+                    .staff-list a{
+                        display: block;
+                    }
+                    .staff-list li{
+                        float: left;
+                        padding: 0 75px;
+                    }
+                </style>
+            </div>
+            <div class="pages_other">
+                      {$nav->render();}
+                 </div>
+        </div>
+    </section>
+ 
+ {include file="common/footer"}

@@ -1,0 +1,141 @@
+{include file="common/_meta1" /}
+<title>添加管理员 - 管理员管理</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body>
+<article class="page-container">
+	{notempty name="$rs.admin_id"}
+	<form class="form form-horizontal" method="post" id="form-admin-add" name="from-admin-add" action="{:url('Backend/admin_edit')}">
+	{else /}
+	<form class="form form-horizontal" method="post" id="form-admin-add" name="from-admin-add" action="{:url('Backend/admin_add')}">
+	{/notempty}
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>管理员：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="text" class="input-text"{notempty name="$rs.adminname"} value="{$rs.adminname}"{/notempty} placeholder="" id="adminName" name="adminname">
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>初始密码：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="password" class="input-text" autocomplete="off" value="" placeholder="密码" id="password" name="password">
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>确认密码：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="password" class="input-text" autocomplete="off"  placeholder="确认新密码" id="password2" name="password2">
+		</div>
+	</div>
+	
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>权限：</label>
+				
+
+					{volist name="quan" id="q"}
+						<input type="checkbox"  name="q[]" value="{$q.access_id}"  >{$q.name}
+					{/volist}
+
+	</div>
+
+	{notempty name="$rs"}
+		<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>已拥有权限：</label>
+				{if count($qu)>0}
+
+					{volist name="qu" id="q"}
+						 <span>{$q.name}</span>
+					{/volist}
+				{else}
+					暂无权限
+				{/if}
+		
+	</div>
+	{/notempty}
+
+
+
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>手机：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="text" class="input-text"{notempty name="$rs.mobile"} value="{$rs.mobile}"{/notempty} placeholder="" id="mobile" name="mobile">
+		</div>
+	</div>
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>邮箱：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="text" class="input-text"{notempty name="$rs.email"} value="{$rs.email}"{/notempty} placeholder="@" name="email" id="email">
+		</div>
+	</div>
+	<div class="row cl">
+		<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+			{notempty name="$rs.admin_id"}
+			<input type="hidden" value="{$rs.admin_id}" id="admin_id" name="admin_id">
+			{/notempty}
+			<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+		</div>
+	</div>
+	</form>
+</article>
+{include file="common/_script1" /}
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").validate({
+		rules:{
+			adminname:{
+				required:true,
+				minlength:4,
+				maxlength:16
+			},
+			{empty name="$rs.admin_id"}
+			password:{
+				required:true,
+			},
+			password2:{
+				required:true,
+				equalTo: "#password"
+			},
+			{/empty}
+			sex:{
+				required:true,
+			},
+			mobile:{
+				required:true,
+				isPhone:true,
+			},
+			email:{
+				required:true,
+				email:true,
+			},
+			adminRole:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				success:function(data){
+					var obj =  eval('(' + data + ')');
+					alert(obj.info);
+
+					var index = parent.layer.getFrameIndex(window.name);
+					parent.$('.btn-refresh').click();
+					parent.window.location.reload();
+					parent.layer.close(index);
+				}
+			});
+		}
+	});
+});
+</script>
+</body>
+</html>

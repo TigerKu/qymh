@@ -1,0 +1,130 @@
+<!-- 页面描述 -->
+	 <meta name="Keywords" content="{$config.keywords}" />
+	<!-- <meta name="Description" content="{$config.description}" /> -->
+	<meta name="description" content="{$config.description}">
+	<!-- 网页作者 -->
+	<meta name="author" content="zqkj" />
+	<!-- 搜索引擎抓取 -->
+	<meta name="robots" content="index,follow" />
+	<title>{$config.site_title}</title>
+
+
+
+<!--底部悬浮-->
+	<div class="dibu">
+		<!--首页-->
+		<a href="{:url('Index/index')}">
+			<div class="db_san">
+				<div class="db_san_tu">
+					<img src="/public/mobile/img/shouye.png" />
+				</div>
+				<p>首页</p>
+			</div>
+		</a>
+
+		<a href="{:url('Index/contact')}">
+			<div class="db_san">
+				<div class="db_san_tu">
+					<img src="/public/mobile/img/ditu.png" />
+				</div>
+				<p>联系我们</p>
+			</div>
+		</a>
+
+		<!--联系我们-->
+
+		<a href="tel:{$re.mobile}">
+			<div class="db_san">
+				<div class="db_san_tu">
+					<img src="/public/mobile/img/lianxi.png" />
+				</div>
+				<p>拨打热线</p>
+			</div>
+		</a>
+	</div>
+
+	<!--菜单选择-->
+	<div class="caidan">
+		<ul>
+			<a href="{:url('Index/index')}">
+				<li>
+					<div class="padd">
+						<p>首页</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/about')}">
+				<li>
+					<div class="padd">
+						<p>关于我们</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/lists_nav',['category_id'=>74])}">
+				<li>
+					<div class="padd">
+						<p>解决方案</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/news',['category_id'=>7])}">
+				<li>
+					<div class="padd">
+						<p>新闻中心</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/news',['category_id'=>8])}">
+				<li>
+					<div class="padd">
+						<p>慈善公益</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/contact')}">
+				<li>
+					<div class="padd">
+						<p>联系我们</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+
+			<a href="{:url('Index/joinus')}">
+				<li>
+					<div class="padd">
+						<p>加入隆晟</p>
+						<div class="li_tu">
+							<img src="/public/mobile/img/xjt.png" />
+						</div>
+					</div>
+				</li>
+			</a>
+		</ul>
+	</div>
+
+</body>
+
+</html>

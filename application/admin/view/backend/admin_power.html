@@ -1,0 +1,167 @@
+{include file="common/_meta2" /}
+
+<title>权限管理</title>
+
+</head>
+
+<body>
+
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 权限管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
+<div class="page-container">
+
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a> <a class="btn btn-primary radius" onclick="system_access_add('添加权限节点','{:url(\'Backend/access_add\')}',800,400)" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加权限</a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+
+	<div class="mt-20">
+
+		<table class="table table-border table-bordered table-hover table-bg table-sort">
+
+			<thead>
+
+				<tr class="text-c">
+
+					<th width="25"><input type="checkbox" name="" value=""></th>
+
+					<th width="80">ID</th>
+
+					<!-- <th width="80">排序</th> -->
+
+					<th>权限名称</th>
+
+					<th width="100">操作</th>
+
+				</tr>
+
+			</thead>
+
+			<tbody>
+
+				{volist name="list" id="vo"}
+
+				<tr class="text-c">
+
+					<td><input type="checkbox" name="ids[]" value="{$vo.access_id}"></td>
+
+					<td>{$vo.access_id}</td>
+
+					<!-- <td>{$vo.sort}</td> -->
+
+					<td class="text-l"><strong>{$vo.name}</strong></td>
+
+					<td class="f-14">
+
+						<!-- <a title="编辑" href="javascript:;" onclick="system_access_edit('权限编辑','{:url(\'Backend/access_edit\',[\'access_id\'=>$vo.access_id])}','{$vo.access_id}','800','400')" style="text-decoration:none">
+
+							<i class="Hui-iconfont">&#xe6df;</i>
+
+						</a>  -->
+
+						<a title="删除" href="javascript:;" onclick="access_del(this,'{$vo.access_id}')" class="ml-5" style="text-decoration:none">
+
+							<i class="Hui-iconfont">&#xe6e2;</i>
+
+						</a>
+
+					</td>
+
+				</tr>
+
+					{notempty name="$vo.sub"}
+
+					{volist name="vo.sub" id="v"}
+
+					<tr class="text-c">
+
+						<td><input type="checkbox" name="ids[]" value="{$v.access_id}"></td>
+
+						<td>{$v.access_id}</td>
+
+						<td>{$v.sort}</td>
+
+						<td class="text-l">&nbsp;&nbsp;├&nbsp;{$v.name}</td>
+
+						<td class="f-14">
+
+							<!--<a title="编辑" href="javascript:;" onclick="system_access_edit('权限编辑','{:url(\'Backend/access_edit\',[\'access_id\'=>$v.access_id])}','{$v.access_id}','800','400')" style="text-decoration:none">
+
+								<i class="Hui-iconfont">&#xe6df;</i>
+
+							</a> -->
+
+							<a title="删除" href="javascript:;" onclick="access_del(this,'{$v.access_id}')" class="ml-5" style="text-decoration:none">
+
+								<i class="Hui-iconfont">&#xe6e2;</i>
+
+							</a>
+
+						</td>
+
+					</tr>
+
+					{/volist}
+
+					{/notempty}
+
+				{/volist}
+
+			</tbody>
+
+		</table>
+
+	</div>
+
+</div>
+
+{include file="common/_script2" /}
+
+<script type="text/javascript">
+
+/*系统-权限-添加*/
+
+function system_access_add(title,url,w,h){
+
+	layer_show(title,url,w,h);
+
+}
+
+/*系统-权限-编辑*/
+
+function system_access_edit(title,url,id,w,h){
+
+	layer_show(title,url,w,h);
+
+}
+
+/*系统-权限-删除*/
+
+function access_del(obj,id){
+
+	layer.confirm('确认要删除吗？',function(index){
+
+		$.ajax({
+
+			type: "POST",
+
+			url: "{:url('Backend/access_del')}",
+
+			data: {access_id:id},
+
+			dataType: "json",
+
+			success: function(data){}
+
+		});
+
+		$(obj).parents("tr").remove();
+
+		layer.msg('已删除!',{icon:1,time:1000});
+
+	});
+
+}
+
+</script>
+
+</body>
+
+</html>

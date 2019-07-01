@@ -1,0 +1,33 @@
+{include file="common/_meta1" /}
+<title>管理员查看</title>
+</head>
+<body>
+<div class="pd-20">
+    <table class="table">
+        <tbody>
+        <tr>
+            <th class="text-r" width="80"><strong>ID：</strong></th>
+            <td><strong>{$rs.admin_id}</strong></td>
+        </tr>
+        <tr>
+            <th class="text-r">登录名：</th>
+            <td>{$rs.adminname}</td>
+        </tr>
+        <tr>
+            <th class="text-r">邮箱：</th>
+            <td>{$rs.email}</td>
+        </tr>
+        <tr>
+            <th class="text-r">电话：</th>
+            <td>{$rs.mobile}</td>
+        </tr>
+        <tr>
+            <th class="text-r">添加时间：</th>
+            <td>{$rs.dateline|date=('Y-m-d H:i:s'),###}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+{include file="common/_script3" /}
+</body>
+</html>

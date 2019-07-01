@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--禁止在手机端放大缩小-->
+	<meta content=" maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<!-- 搜索引擎抓取 -->
+	<meta name="robots" content="index,follow" />
+	<!--引入css-->
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/public.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/kuang.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/animate.min.css" />
+	<!--引入js-->
+	<script src="/public/mobile/js/swiper.min.js"></script>
+	<script src="/public/mobile/js/flexible.js"></script>
+	<script src="/public/mobile/js/jquery-3.1.1.min.js"></script>
+	<script src="/public/mobile/js/index-jq.js"></script>
+	<script src="/public/mobile/js/wow.min.js"></script>
+</head>
+
+<body>
+	<div class="toubu">
+		<div class="tb_kuai">
+			<div class="tb_left">
+
+				<!-- <img src="/public/mobile/img/logo.png" /> -->
+
+				{notempty name="$logo"}
+					<img src="{$logo.thumb}" alt="">
+					{else /}
+					<img src="/public/frontend/mobile/img/logo.png"
+							alt="">
+				{/notempty}
+			</div>
+
+			<div class="tb_right">
+				<img id="caidan1" src="/public/mobile/img/caidan.png" />
+			</div>
+		</div>
+	</div>
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+		        	{volist name="data" id="vo"}
+                        {notempty name="$data"}
+                         <div class="swiper-slide"><img src="{$vo.thumb}" alt=""></div>
+                            {else/}
+                            	<div class="swiper-slide"><img src="/public/mobile/img/banner.png" /></div>
+                            {/notempty}
+                    {/volist}
+
+
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="othr">
+		<div class="journalism_bt">
+			<p class="yingwen">SERVER FIELD</p>
+			<h3>服务领域</h3>
+			<p class="xian1"></p>
+		</div>
+		<div class="othr_dakuai">
+			
+                            
+         {volist name="server" id="ser"}
+			<div class="othr_xiaokuai">
+				 <a href="{:url('index/detail_nav',['nav_id'=>$ser.nav_id])}" style="text-decoration: none;">
+					<img src="{$ser.document}" />
+					<p>{$ser.title}</p>
+				</a>
+			</div>
+		  {/volist}
+
+
+		</div>
+		<!-- <a href="" class="about-more">更多</a> -->
+	</div>
+	<div class="about">
+		<div class="journalism_bt">
+			<p class="yingwen">ABOUT US</p>
+			<h3>关于我们</h3>
+			<p class="xian1"></p>
+		</div>
+		<div class="about-con">
+			 {$abouts.content}
+		</div>
+		<a href="{:url('Index/about')}" class="about-more">更多</a>
+	</div>
+	<div class="journalism">
+		<div class="journalism_bt">
+			<p class="yingwen">NEWS CENTER</p>
+			<h3>新闻中心</h3>
+			<p class="xian1"></p>
+		</div>
+		<div class="journalism_dakuai">
+			<div class="journalism_nr">
+				
+			{volist name="news" id="ne"}
+				<div class="journalism_nr_xk">
+					 <a href="{:url('index/detail_nav',['nav_id'=>$ne.nav_id])}">
+						<div class="journalism_nr_xk_tu">
+							<img src="{$ne.document}" />
+						</div>
+						<div class="journalism_nr_xk_wen">
+							<p class="journalism_nr_xk_wen_bt">{$ne.title}</p>
+							<p class="journalism_nr_xk_wen_nr">{$ne.profile}</p>
+						</div>
+					</a>
+				</div>
+			{/volist}
+
+
+			</div>
+		</div>
+		<a href="/index.php/mobile/index/news/category_id/7.html" class="about-more">更多</a>
+	</div>
+	<div class="journalism">
+		<div class="journalism_bt">
+			<p class="yingwen">OUR CUSTOMERS</p>
+			<h3>我们的客户</h3>
+			<p class="xian1"></p>
+		</div>
+		<div class="customer-list">
+			<ul>
+				
+				
+             {volist name="link" id="li"}
+				<li>
+					<a href="{$li.link_url}">
+						<img src="{$li.thumb}" alt="">
+					</a>
+				</li>
+			{/volist}
+
+
+			</ul>
+		</div>
+		<!-- <a href="" class="about-more">更多</a> -->
+	</div>
+	<!--售后电话-->
+	<div class="shouhou" style="background: url(/public/mobile/img/beijing.png);">
+		<div class="sh_block">
+			<!-- <div class="sh_dh">
+				免费电话
+			</div>
+			<p>{$re.phone}</p> -->
+			<div class="dibu1">
+				<div class="db_gs">上海隆晟</div>
+				<div class="db_ba">免费电话:{$re.phone}</div>
+				<div class="db_ba">企业邮箱:{$re.email}</div>
+				<div class="db_ba">公司地址:{$re.address}</div>
+			</div>
+		</div>
+	</div>
+
+	<!--轮播css-->
+	<!--不要动的js-->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			autoplay: 1000,
+			speed: 100,
+			speed: 500,
+			autoplayDisableOnInteraction: false,
+			loop: true,
+			keyboard: {
+				enabled: true,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			autoplay: {
+				delay: 2500,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+	<!--不要动的js-->
+
+	<!--底部-->
+	<!-- <div class="dibu1">
+		<div class="db_gs">上海隆晟</div>
+		<div class="db_ba">企业邮箱:{$re.email}</div>
+		<div class="db_ba">公司地址:{$re.address}</div>
+	</div> -->
+
+
+	{include file="common/footer"}

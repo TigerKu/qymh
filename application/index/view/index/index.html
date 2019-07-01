@@ -1,0 +1,371 @@
+{include file="common/header"}
+
+<section>
+    <div class="swiper-container" id="swiper1">
+        <div class="swiper-wrapper">
+            {volist name="data" id="vo"}
+            {notempty name="$data"}
+            <div class="swiper-slide">
+                    <a href="/index.php/index/index/joinus.html">
+                        <img src="{$vo.thumb}" class="banner-img" alt="">
+                    </a>
+                </div>
+            {else/}
+            <div class="swiper-slide"><img src="/public/pc/img/banner1.png" class="banner-img" alt=""></div>
+            {/notempty}
+            {/volist}
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+
+    </div>
+</section>
+<!-- <section>
+        <div class="about-us">
+            <div class="about-left">
+                <img src="{$abouts.document}" alt="">
+            </div>
+            <div class="about-right">
+                <div class="about-right-tit"><span>关于我们</span>/ABOUT US</div>
+                <div class="about-right-con">
+                   {$abouts.content}
+                </div>
+                <div class="about-right-more">
+                    <a href="{:url('Index/about')}">查看更多</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+<section>
+    <div class="index-wrap">
+        <h2 class="index-title-h2">人力资源外包服务专家</h2>
+        <h4 class="index-title-h4">上海隆晟专注于人力资源外包领域，是中国知名的人力资源外包服务机构。</h4>
+        <div class="index-data-img">
+
+            <div class="data data1">
+                <span>1,500+</span>
+            </div>
+            <div class="data data2">
+                <span>30,000+</span>
+            </div>
+            <div class="data data3">
+                <span>23,000+</span>
+            </div>
+            <div class="data data4">
+                <span>5,000+</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<style>
+    .index-wrap {
+        width: 1200px;
+        margin: 0 auto 70px;
+    }
+
+    .index-title-h2 {
+        font-size: 30px;
+        color: #333;
+        padding-top: 70px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .index-title-h4 {
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: bold;
+    }
+
+    .index-data-img {
+        position: relative;
+        width: 100%;
+        height: 135px;
+        background: url(/public/pc/img/index-data-img.jpg) 117px bottom no-repeat;
+    }
+
+    .index-data-img .data {
+        position: relative;
+        width: 244px;
+        height: 80px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .index-data-img .data1 {
+        margin-left: 117px;
+    }
+
+    .index-data-img .data2 {
+        margin-left: 6px;
+    }
+
+    .index-data-img .data3 {
+        margin-left: 40px;
+    }
+
+    .index-data-img .data4 {
+        margin-left: 12px;
+    }
+
+    .data span {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: inline-block;
+        width: 100%;
+        height: 80px;
+        line-height: 100px;
+        letter-spacing: -4px;
+        font-weight: bold;
+        /* background-position: left bottom; */
+        /* background-repeat: no-repeat; */
+        font-size: 52px;
+        color: #D72D40;
+    }
+</style>
+<section class="weserver-bg">
+    <div class="weserver">
+        <div class="weserver-tit">
+            <span>我们的服务领域</span>
+            <span>为企业量身定制"多元化"，综合性解决方案，提供全方位或个性化服务</span>
+        </div>
+        <div class="myswiper">
+            <div class="swiper-container" id="swiper2">
+               
+                <div class="swiper-wrapper">
+                     {if count($server)/4>0}
+                        <div class="swiper-slide">
+                            <ul class="server-ul">
+                                {volist name="server" id="ser" length="4"}
+                                    <li class="server-item">
+                                        <a href="/index.php/index/index/lists_nav/category_id/{$ser.category_id}">
+                                            <img src="{$ser.document}" alt="" class="server-item-img">
+                                            <div class="server-item-tit">{$ser.title}</div>
+                                            <div class="server-item-con">{$ser.profile}</div>
+                                        </a>
+                                    </li>
+                                    {/volist}
+                            </ul>
+                        </div>
+                     {/if}
+
+                     {if count($server)/4>1}
+                        <div class="swiper-slide">
+                            <ul class="server-ul">
+                                {volist name="server" id="ser" offset="4" length='4'}
+                                    <li class="server-item">
+                                        <a href="/index.php/index/index/lists_nav/category_id/{$ser.category_id}">
+                                            <img src="{$ser.document}" alt="" class="server-item-img">
+                                            <div class="server-item-tit">{$ser.title}</div>
+                                            <div class="server-item-con">{$ser.profile}</div>
+                                        </a>
+                                    </li>
+                                    {/volist}
+                            </ul>
+                        </div>
+                     {/if}
+                     
+                {if count($server)/4>2}
+                        <div class="swiper-slide">
+                            <ul class="server-ul">
+                                {volist name="server" id="ser" offset="8" length='4'}
+                                    <li class="server-item">
+                                        <a href="/index.php/index/index/lists_nav/category_id/{$ser.category_id}">
+                                            <img src="{$ser.document}" alt="" class="server-item-img">
+                                            <div class="server-item-tit">{$ser.title}</div>
+                                            <div class="server-item-con">{$ser.profile}</div>
+                                        </a>
+                                    </li>
+                                    {/volist}
+                            </ul>
+                        </div>
+                     {/if}
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="server-more">
+            <a href="/index.php/index/index/lists_nav/category_id/74.html">查看更多</a>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="news-cneter">
+        <div class="news-tit">
+            <div class="news-tit-con">
+                <span>新闻中心</span>
+                <span>NEWS CENTER</span>
+            </div>
+            <div class="news-subhead">分享创造价值，记录企业发展脚步</div>
+        </div>
+        <div class="news-con">
+            <ul>
+
+                {volist name="news" id="ne"}
+                <li class="news-mod">
+                    <a href="{:url('index/detail_nav',['nav_id'=>$ne.nav_id])}">
+                        <img src="{$ne.document}" alt="" class="news-img">
+                        <div class="news-name">{$ne.title}</div>
+                        <div class="news-time">{$ne.inputtime|date=('Y-m-d'),###}</div>
+                        <div class="news-msg">{$ne.profile}</div>
+                    </a>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+        <div class='news-more'>
+            <a href="{:url('Index/news')}">查看更多</a>
+        </div>
+    </div>
+</section>
+<section class="case-bg">
+    <div class="case">
+        <div class="news-tit">
+            <div class="news-tit-con">
+                <span>外包案例</span>
+                <span>OUTSOURCING CASE</span>
+            </div>
+            <div class="news-subhead" style="color:#fff;">用户的利益高于一切，携手隆晟、共创辉煌</div>
+        </div>
+        <div class="case-con">
+            <ul>
+                {volist name="doc" id="d"}
+                        <li class="case-mod">
+                            <a href="{:url('index/detail_nav',['nav_id'=>$d.nav_id])}">
+                                <img src="{$d.document}" alt="" class="case-img">
+                                <!-- <div class="case-name">{$d.title}</div>
+                                <div class="case-msg">{$d.profile}</div> -->
+                            </a>
+                        </li>
+                {/volist}
+            </ul>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="customer">
+        <div class="news-tit">
+            <div class="news-tit-con">
+                <span>我们的客户</span>
+                <span>OUR CUSTOMERS</span>
+            </div>
+            <div class="news-subhead">全心全力服务好我们的每一个客户，选择隆晟，享受高品质服务。</div>
+        </div>
+        <div class="customer-con">
+            <ul>
+
+                {volist name="link" id="li"}
+                <li class="customer-mod">
+                    <a href="{$li.link_url}">
+                        <img src="{$li.thumb}" alt="" class="customer-img">
+                    </a>
+                </li>
+                {/volist}
+
+            </ul>
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="/public/pc/css/lanren.css">
+<link rel="stylesheet" href="/public/pc/css/animate.css">
+<div id="floatDivBoxs">
+    <div class="floatShadow">
+        <div style="border: 1px solid #333;">
+            <div class="floatDtt">
+                <span style="font-size: 12px;">在线服务热线</span>
+                <p style="font-size: 18px;">{$re.phone}</p>
+            </div>
+            <ul class="floatDqq">
+                
+                {volist name="qq" id="q"}
+                    <li>
+                        <a target="_blank" href="tencent://message/?uin={$q.QQ}&Site=sc.chinaz.com&Menu=yes">
+                            <img src="/public/pc/img/qq.png" align="absmiddle">
+                            <span class="contact-title" style="display: block;">{$q.facsimile}<em>{$q.mobile}</em></span>
+                            <span class="contact-mobile" style="display: none;">联系电话：<em>{$q.phone}</em></span>
+                        </a>
+                    </li>
+               {/volist}
+
+
+            </ul>
+        </div>
+
+        <dl id="toTop" class="toTop">
+            <dd>返回顶部</dd>
+        </dl>
+    </div>
+</div>
+
+{include file="common/footer"}
+<script src="/public/pc/js/swiper.js"></script>
+<script src="/public/pc/js/jquery.js"></script>
+<script>
+    var mySwiper = new Swiper('#swiper1', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+    })
+    var mySwiper2 = new Swiper('#swiper2', {
+        direction: 'horizontal', // 垂直切换选项
+        loop: true, // 循环模式选项
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+    // 关于我们文本溢出隐藏
+    if (document.querySelector('.about-right-con>p').offsetHeight > document.querySelector('.about-right-con')
+        .offsetHeight) {
+        document.querySelector('.about-right-con').className += ' mytextover'
+    }
+</script>
+<script type="text/javascript">
+    $("#toTop").click(function() {
+        // console.log(111)
+        $('body,html').animate({
+            scrollTop: 0
+        },
+        1000);
+        return false;
+    });
+    $('.floatDqq>li').hover(function () {
+        $(this).find('.contact-mobile').css('display', 'block');
+        $(this).find('.contact-title').css('display', 'none');
+        $(this).find('img').addClass('animated');
+        $(this).find('img').addClass('swing');
+    }, function () {
+        $(this).find('.contact-mobile').css('display', 'none');
+        $(this).find('.contact-title').css('display', 'block');
+        $(this).find('img').removeClass('swing');
+    })
+</script>

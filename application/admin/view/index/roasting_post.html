@@ -1,0 +1,75 @@
+{include file="common/_meta1" /}
+
+<title>添加轮播图</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body>
+<article class="page-container">
+	{notempty name="$rs.id"}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-member-add" name="form-member-add" action="{:url('Index/roasting_edit')}">
+	{else /}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-member-add" name="form-member-add" action="{:url('Index/roasting_add')}">
+	{/notempty}
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">文字说明：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.title"} value="{$rs.title}"{/notempty} placeholder="请输入文字说明" id="title" name="title">
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-1">缩略图：</label>
+			<div class="formControls col-xs-6 col-sm-5">
+				<input type="file" class="input-text"  id="thumb" name="thumb">
+				{notempty name="$rs.thumb"}<img src="{$rs.thumb}" width="600" height="200" style="margin:20px 0 0;">{/notempty}
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				{notempty name="$rs.id"}
+				<input type="hidden" value="{$rs.id}" id="id" name="id">
+				{/notempty}
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				<input class="btn btn-default radius" type="reset" value="&nbsp;&nbsp;重置&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+{include file="common/_script1" /}
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	$("#form-member-add").validate({
+		rules:{
+			thumb:{
+				required:true,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				success:function(data){
+					var obj =  eval('(' + data + ')');
+					layer.alert(obj.info, function(index){
+						parent.window.location.reload();
+						layer_close();
+					});
+				}
+			});
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

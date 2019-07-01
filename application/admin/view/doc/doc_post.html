@@ -1,0 +1,161 @@
+{include file="common/_meta1" /}
+<title>新增文章 - 文章管理</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body>
+<Article class="page-container">
+	{notempty name="$rs.id"}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-Nav-add" name="form-Nav-add" action="{:url('doc/doc_edit')}">
+	{else /}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-Nav-add" name="form-Nav-add" action="{:url('doc/doc_add')}">
+	{/notempty}
+
+	    <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>姓名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.name"} value="{$rs.name}"{/notempty} placeholder="请输入标题" id="official_title" name="name">
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>职称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.title"} value="{$rs.title}"{/notempty} placeholder="请输入标题" id="official_title" name="official_title">
+			</div>
+		</div>
+
+
+
+		<div class="row cl"> 
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>标题2：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.title2"} value="{$rs.title2}"{/notempty} placeholder="请输入关键词" id="word" name="title2">
+			</div>
+		</div>
+
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>简介：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.description"} value="{$rs.description}"{/notempty} placeholder="请输入简介" id="profile" name="description">
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>简介2：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.description2"} value="{$rs.description2}"{/notempty} placeholder="请输入简介" id="profile" name="description2">
+			</div>
+		</div>
+
+
+
+		
+		<!-- <div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>搜索条件1：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.search"} value="{$rs.search}"{/notempty} placeholder="请输入搜索条件,添加案例时必填,如APP设计,建站设计,微信设计,小程序设计" id="search" name="search">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>搜索条件2：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text"{notempty name="$rs.search2"} value="{$rs.search2}"{/notempty} placeholder="请输入搜索条件,添加案例时必填,如:PC端或移动端" id="search2" name="search2">
+			</div>
+		</div> -->
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">上传附件</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="file" class="input-text" value="" placeholder="" id="document" name="thumb">
+				{notempty name="$rs.thumb"}<img src="{$rs.thumb}" width="380" height="120" style="margin:20px 0 0;">{/notempty}
+
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">内容：</label>
+			<div class="formControls col-xs-8 col-sm-9"> 
+				<script id="editor" type="text/plain" style="width:100%;height:400px;">{notempty name="$rs.content"}{$rs.content}{/notempty}</script>
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				{notempty name="$rs.id"}
+				<input type="hidden" value="{$rs.id}" id="nav_id" name="id">
+				{/notempty}
+				<button class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存</button>
+				<!--<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存草稿</button>-->
+				<button class="btn btn-default radius" type="reset">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+
+
+	</form>
+</Article>
+
+{include file="common/_script1" /}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/public/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="/public/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="/public/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+
+	$("#form-Nav-add").validate({
+		rules:{
+			name:{
+				required:true,
+				minlength:2,
+				maxlength:20,
+			},
+			// word:{
+			// 	required:true,
+			// 	minlength:2,
+			// },
+			profile:{
+				required:true,
+				minlength:2,
+			},
+			official_title:{
+				required:true,
+				minlength:2,
+			},
+			content:{
+				required:true,
+				minlength:2,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				success:function(data){
+					var obj =  eval('(' + data + ')');
+					layer.alert(obj.info, function(index){
+						parent.window.location.reload();
+						layer_close();
+					});
+				}
+			});
+		}
+	});
+
+	var ue = UE.getEditor('editor');
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

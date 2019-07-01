@@ -1,0 +1,16 @@
+
+{include file="common/header"}
+
+    <section>
+        <!-- <img src="/public/pc/img/9.png" alt="" class="page-img"> -->
+            <img src="{if $d['id']==16}{$d['thumb']}{/if}" class="page-img">
+        
+        <div class="page">
+            <div class="page-about-title">公司简介</div>
+            <div class="page-about-con">
+                {$nav_about.content}
+            </div>
+        </div>
+    </section>
+ 
+ {include file="common/footer"}

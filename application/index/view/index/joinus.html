@@ -1,0 +1,97 @@
+
+{include file="common/header"}
+   <!--  <section>
+         <img src="/public/pc/img/16.png" class="page-img" alt=""> 
+         <img src="{if $d['id']==20}{$d['thumb']}{/if}" class="page-img">
+        <div class="page">
+            <div class="page-solu-tit">加入隆晟</div>
+            <div class="page-joinus">
+                {$nav.content}
+            </div>
+        </div>
+    </section> -->
+   
+  <section>
+        <!-- <img src="/public/pc/img/12.png" alt="" class="page-img"> -->
+
+            <img src="{if $d['id']==20}{$d['thumb']}{/if}" class="page-img">
+
+        <div class="news-page page">
+            {volist name="news" id="n"}
+            <div class="news-module mypos">
+                    <div class="page-news-img">
+                        <img src="{$n.document}" alt="">
+                    </div>
+                    <div class="news-hanzi">
+                        <div class="news-title">{$n.title}</div>
+                        <div class="news-content">
+                            {$n.profile}
+                        </div>
+                        <div class="news-message">
+                            <span class="news-liulan">浏览量：{$n.click}</span>
+                            <span class="news-date">时间：{$n.inputtime|date=('Y-m-d'),###}</span>
+                        </div>
+                    </div>
+                    <a href="{:url('index/detail_nav',['nav_id'=>$n.nav_id])}" class="myposa">查看更多</a>
+            </div>
+            {/volist}
+
+        </div>
+
+
+                <style type="text/css">
+                .mypos{
+                    position: relative;
+                }
+                .myposa{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0px;
+                    display: inline-block;
+                    width: 100px;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #fff;
+                    text-align: center;
+                    background: red;
+                }
+                      .pages_other {margin: 20px auto;text-align: center; height: 30px}
+                    .pages_other > .pagination {float: left;left: 50%;position: relative;}
+                    .pages_other > .pagination > li {background: #bbb;float: left;margin: 0 5px;position: relative;right: 50%; height: 30px; line-height: 30px;padding:0;}
+                    .pages_other > .pagination > li.active {background-color: #9a443b;}
+                    .pages_other > .pagination > li:hover>a{border-bottom: none !important}
+                    .pages_other > .pagination > li > span,.pages_other > .pagination > li > a {color: #red;padding: 0 10px; display: block;height: 30px; line-height: 30px;}
+                </style>
+            </div>
+            <div class="pages_other">
+                      {$news->render();}
+                 </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{include file="common/footer"}

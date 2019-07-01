@@ -1,0 +1,279 @@
+{include file="common/_meta1" /}
+
+<title>添加管理员 - 管理员管理</title>
+
+<meta name="keywords" content="">
+
+<meta name="description" content="">
+
+</head>
+
+<body>
+
+<article class="page-container">
+
+	{notempty name="$rs.access_id"}
+
+	<form class="form form-horizontal" method="post" id="form-admin-access-add" name="from-admin-access-add" action="{:url('Backend/access_edit')}">
+
+	{else /}
+
+	<form class="form form-horizontal" method="post" id="form-admin-access-add" name="from-admin-access-add" action="{:url('Backend/access_add')}">
+
+	{/notempty}
+
+	<div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>权限名称：</label>
+
+		<div class="formControls col-xs-8 col-sm-9">
+
+			<input type="text" class="input-text"{notempty name="$rs.name"} value="{$rs.name}"{/notempty} placeholder="" id="accessname" name="accessname">
+
+		</div>
+
+	</div>
+
+	<!--
+
+	<div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>性别：</label>
+
+		<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+
+			<div class="radio-box">
+
+				<input name="sex" type="radio" id="sex-1" checked>
+
+				<label for="sex-1">男</label>
+
+			</div>
+
+			<div class="radio-box">
+
+				<input type="radio" id="sex-2" name="sex">
+
+				<label for="sex-2">女</label>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	-->
+
+	<!-- <div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>排序：</label>
+
+		<div class="formControls col-xs-8 col-sm-9">
+
+			<input type="text" class="input-text"{notempty name="$rs.sort"} value="{$rs.sort}"{/notempty} placeholder="" id="sort" name="sort">
+
+		</div>
+
+	</div> -->
+
+	<!-- <div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>模块/方法：</label>
+
+		<div class="formControls col-xs-8 col-sm-9">
+
+			<input type="text" class="input-text"{notempty name="$rs.method"} value="{$rs.method}"{/notempty} placeholder="" name="accessmethod" id="accessmethod">
+
+		</div>
+
+	</div>
+ -->
+	<!-- <div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2">上级：</label>
+
+		<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+
+		<select class="select" name="pid" size="1">
+
+			<option value="0">根节点</option>
+
+			{volist name="access_list" id="vo"}
+
+			<option value="{$vo.access_id}"{notempty name="$rs.pid"}{eq name="$vo.access_id" value="$rs.pid"} selected{/eq}{/notempty}>{$vo.name}</option>
+
+			{/volist}
+
+		</select>
+
+		</span> </div>
+
+	</div>
+ -->
+	<!-- <div class="row cl">
+
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>是否启用：</label>
+
+		<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+
+			<div class="radio-box">
+
+				<input name="is_open" type="radio" id="sex-1" checked>
+
+				<label for="sex-1">是</label>
+
+			</div>
+
+			<div class="radio-box">
+
+				<input type="radio" id="sex-2" name="is_open">
+
+				<label for="sex-2">否</label>
+
+			</div>
+
+		</div>
+
+	</div> -->
+
+	<div class="row cl">
+
+		<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+
+			{notempty name="$rs.access_id"}
+
+			<input type="hidden" value="{$rs.access_id}" id="access_id" name="access_id">
+
+			{/notempty}
+
+			<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+
+		</div>
+
+	</div>
+
+	</form>
+
+</article>
+
+{include file="common/_script1" /}
+
+<script type="text/javascript">
+
+$(function(){
+
+	$('.skin-minimal input').iCheck({
+
+		checkboxClass: 'icheckbox-blue',
+
+		radioClass: 'iradio-blue',
+
+		increaseArea: '20%'
+
+	});
+
+	
+
+	$("#form-admin-access-add").validate({
+
+		rules:{
+
+			adminname:{
+
+				required:true,
+
+				minlength:4,
+
+				maxlength:16
+
+			},
+
+			{empty name="$rs.admin_id"}
+
+			password:{
+
+				required:true,
+
+			},
+
+			password2:{
+
+				required:true,
+
+				equalTo: "#password"
+
+			},
+
+			{/empty}
+
+			sex:{
+
+				required:true,
+
+			},
+
+			phone:{
+
+				required:true,
+
+				isPhone:true,
+
+			},
+
+			email:{
+
+				required:true,
+
+				email:true,
+
+			},
+
+			adminRole:{
+
+				required:true,
+
+			},
+
+		},
+
+		onkeyup:false,
+
+		focusCleanup:true,
+
+		success:"valid",
+
+		submitHandler:function(form){
+
+			$(form).ajaxSubmit({
+
+				dataType: "json",
+
+                success:function(obj){
+
+					layer.alert(obj.info, function(index){
+
+                        var index = parent.layer.getFrameIndex(window.name);
+
+						parent.$('.btn-refresh').click();
+
+						parent.window.location.reload();
+
+						parent.layer.close(index);
+
+					});
+
+				}
+
+			});
+
+		}
+
+	});
+
+});
+
+</script>
+
+</body>
+
+</html>

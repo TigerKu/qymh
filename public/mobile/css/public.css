@@ -1,0 +1,169 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.4rem;
+	max-height: 999999px;
+}
+
+.toubu {
+	overflow: hidden;
+	background: #2f2f2f;
+	position: fixed;
+	width: 100%;
+	top: 0rem;
+	z-index: 999;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	padding: 1.4rem 0rem;
+}
+
+.tb_kuai {
+	padding: 0.2rem 0.2rem;
+	height: 100%;
+	overflow: auto;
+}
+
+.tb_left {
+	float: left;
+}
+
+.tb_right {
+	float: right;
+	position: relative;
+	top: 0.29rem;
+	left: -0.3rem;
+}
+
+.tianjia {
+	float: right;
+	position: relative;
+	top: 0.29rem;
+	left: -0.3rem;
+}
+
+.tb_left img {
+	width: 3rem;
+}
+
+.tb_right img {
+	width: 0.55rem;
+}
+
+.dibu {
+	overflow: hidden;
+	background: #2f2f2f;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}
+
+.db_san {
+	float: left;
+	width: 33.2%;
+	text-align: center;
+	padding: 0.2rem 0rem;
+	border-right: 1px solid #747474;
+}
+
+.db_san img {
+	width: 0.65rem;
+}
+
+.db_san p {
+	font-size: 0.3rem;
+	color: #fff;
+}
+
+
+/*以上为公共头部底部*/
+
+.caidan {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	height: 0%;
+	display: none;
+	top: 0;
+	padding-top: 1.4rem;
+	width: 0%;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	z-index: 99;
+	max-width: 980px !important;
+}
+
+.caidan ul li {
+	color: #FFFFFF;
+	overflow: hidden;
+	line-height: 0.7rem;
+	border-bottom: 0.01rem solid #7e7e7e;
+}
+
+.caidan ul li .padd {
+	overflow: hidden;
+	padding: 0.2rem 0.5rem;
+}
+
+.caidan ul li p {
+	float: left;
+	font-size: 0.33rem;
+}
+
+.caidan ul li .li_tu {
+	float: right;
+	height: 0.7rem;
+}
+
+.caidan ul li .li_tu img {
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0.1rem;
+}
+
+.caidan ul {
+	background: #000000;
+}
+
+body {
+	max-width: 980px !important;
+	margin: 0px auto
+}
+
+.toubu {
+	max-width: 980px !important;
+	margin: 0px auto
+}
+
+.dibu {
+	max-width: 980px !important;
+}
+
+.butt {
+	width: 3rem;
+	text-align: center;
+	display: block;
+	margin: auto;
+	background: #1ec3f8;
+	color: #fff;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.3rem;
+	margin-top: 0.4rem;
+}
+
+.xiangqing1 {
+	padding: 0.3rem 0.2rem;
+}
+
+.banner {
+	overflow: auto;
+}
+
+.banner img {
+	float: left;
+}

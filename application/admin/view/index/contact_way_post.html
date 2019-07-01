@@ -1,0 +1,114 @@
+{include file="common/_meta1" /}
+
+<title>添加联系方式</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body>
+<article class="page-container">
+	{notempty name="$rs.id"}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-member-add" name="form-member-add" action="{:url('Index/contact_way_edit')}">
+	{else /}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-member-add" name="form-member-add" action="{:url('Index/contact_way_add')}">
+	{/notempty}
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>QQ：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.QQ"} value="{$rs.QQ}"{/notempty} placeholder="请输入QQ" id="QQ" name="QQ">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>电话：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.phone"} value="{$rs.phone}"{/notempty} placeholder="请输入电话" id="phone" name="phone">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>联系人：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.mobile"} value="{$rs.mobile}"{/notempty} placeholder="请输入电话" id="mobile" name="mobile">
+			</div>
+		</div>
+
+
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red"></span>职务：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.facsimile"} value="{$rs.facsimile}"{/notempty} placeholder="请输入传真" id="facsimile" name="facsimile">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>邮箱：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.email"} value="{$rs.email}"{/notempty} placeholder="请输入邮箱" id="email" name="email">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>地址：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<input type="text" class="input-text" {notempty name="$rs.address"} value="{$rs.address}"{/notempty} placeholder="请输入地址" id="address" name="address">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				{notempty name="$rs.id"}
+				<input type="hidden" value="{$rs.id}" id="id" name="id">
+				{/notempty}
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+				<input class="btn btn-default radius" type="reset" value="&nbsp;&nbsp;重置&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+{include file="common/_script1" /}
+
+<!--请在下方写此页面业务相关的脚本--> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-member-add").validate({
+		rules:{
+			QQ:{
+				required:true,
+			},
+			phone:{
+				required:false,
+			},
+			facsimile:{
+				required:false,
+			},
+			email:{
+				required:false,
+			},
+			address:{
+				required:false,
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				success:function(data){
+					var obj =  eval('(' + data + ')');
+					layer.alert(obj.info, function(index){
+						parent.window.location.reload();
+						layer_close();
+					});
+				}
+			});
+		}
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

@@ -1,0 +1,116 @@
+{include file="common/_meta1" /}
+<title>添加分类 - 分类管理</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+</head>
+<body>
+
+<article class="page-container">
+	{notempty name="$rs.category_id"}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-category-add" name="form-category-add" action="{:url('Nav/nav_category_edit')}">
+	{else /}
+	<form class="form form-horizontal" method="post" enctype="multipart/form-data" id="form-category-add" name="form-category-add" action="{:url('Nav/nav_category_add')}">
+	{/notempty}
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>分类名称：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="text" class="input-text"{notempty name="$rs.name"} value="{$rs.name}"{/notempty} placeholder="" id="catename" name="catename">
+		</div>
+	</div>
+	<!-- <div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>别名：</label>
+		<div class="formControls col-xs-8 col-sm-9">
+			<input type="text" class="input-text"{notempty name="$rs.ename"} value="{$rs.ename}"{/notempty} placeholder="" name="ename" id="ename">
+		</div>
+	</div> -->
+
+
+	{notempty name="$rs.category_id"}
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">上级分类：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+			<select class="select" name="pid" size="1">
+				<option value="0">一级分类</option>
+				
+				{volist name="nav_category_list" id="vo"}
+						
+				<option value="{$vo.category_id}"{notempty name="$rs.pid"}{eq name="$vo.category_id" value="$rs.pid"} selected{/eq}{/notempty}>	
+						{$vo.name}</option>
+				{/volist}
+				
+			</select>
+			</span>
+			</div>
+		</div> 
+	{else /}
+	<div class="row cl">
+		<label class="form-label col-xs-4 col-sm-2">上级分类：</label>
+		<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+		<select class="select" name="pid" size="1">
+			<option value="0">一级分类</option>
+			{volist name="nav_category_list" id="vo"}
+			<option value="{$vo.category_id}"{notempty name="$rs.pid"}{eq name="$vo.category_id" value="$rs.pid"} selected{/eq}{/notempty}>{$vo.name}</option>
+			{/volist}
+		</select>
+		</span>
+		</div>
+	</div>
+	{/notempty}
+	<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">分类图片：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="file" class="input-text" value="" placeholder="" id="document" name="document">
+				{notempty name="$rs.document"}<img src="{$rs.document}" width="380" height="120" style="margin:20px 0 0;">{/notempty}
+			</div>
+		</div>
+	<div class="row cl">
+		<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+			{notempty name="$rs.category_id"}
+			<input type="hidden" value="{$rs.category_id}" id="category_id" name="category_id">
+			{/notempty}
+			<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+		</div>
+	</div>
+	</form>
+</article>
+{include file="common/_script1" /}
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-category-add").validate({
+		rules:{
+			catename:{
+				required:true,
+				minlength:2,
+				maxlength:50
+			},
+			ename:{
+				required:true,
+				minlength:2,
+				maxlength:50
+			},
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			$(form).ajaxSubmit({
+				success:function(data){
+					var obj =  eval('(' + data + ')');
+					layer.alert(obj.info, function(index){
+						parent.window.location.reload();
+						layer_close();
+					});
+				}
+			});
+		}
+	});
+});
+</script>
+</body>
+</html>

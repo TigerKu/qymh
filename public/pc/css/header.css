@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top-logo{
+    width: 250px;
+    height: 75px;
+    margin-top: 12.5px;
+}
+.top-msg-area{
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/topbg.png);
+}
+.top-msg{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-msg-list{
+    float: right;
+    position: relative;
+    left: 155px;
+}
+.top-msg-list li{
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.top-msg-list li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.top-msg-list li img,.top-msg-list li div{
+    float: left;
+    height: 40px;
+}
+.msg-con span{
+    display: block;
+    max-width: 185px;
+    font-size: 14px;
+    color: #fff;
+    /* color: #000; */
+    line-height: 20px;
+}
+.top-nav{
+    background: #ca0000;
+}
+.top-nav ul{
+    width: 1200px;
+    margin:  0 auto;
+    height: 50px;
+}
+.top-nav ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.top-nav ul li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    border-right: 2px solid #fff;
+    height: 25px;
+    margin-top: 12.5px;
+    line-height: 25px;
+}
+.top-nav ul li:last-child{
+    border-right: none;
+}
+.top-nav ul li a{
+    color: #fff;
+    display: inline-block;
+    width: 80%;
+    height: 35px;
+}
+.top-nav ul li a:hover{
+    color: #f09105;
+}
+ 

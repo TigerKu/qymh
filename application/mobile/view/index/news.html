@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--禁止在手机端放大缩小-->
+	<meta content=" maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!--引入css-->
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/public.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/index.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/kuang.css" />
+	<link rel="stylesheet" type="text/css" href="/public/mobile/css/swiper.min.css" />
+	<!--引入js-->
+	<script src="/public/mobile/js/swiper.min.js"></script>
+	<script src="/public/mobile/js/flexible.js"></script>
+	<script src="/public/mobile/js/jquery-3.1.1.min.js"></script>
+	<script src="/public/mobile/js/index-jq.js"></script>
+</head>
+
+<body>
+	<div class="toubu">
+		<div class="tb_kuai">
+			<div class="tb_left">
+				<img src="/public/mobile/img/logo.png" />
+			</div>
+
+			<div class="tb_right">
+				<img id="caidan1" src="/public/mobile/img/caidan.png" />
+			</div>
+		</div>
+	</div>
+
+	<div class="banner">
+		   <img src="{if $d['id']==19 || $d['id']==22 }{$d['thumb']}{/if}" class="page-img">
+	</div>
+
+	<style>
+		.news_kuai_wen {
+			width: 58%;
+			float: right;
+			position: absolute;
+			top: 42%;
+			transform: translateY(-50%);
+			right: 0rem;
+		}
+
+		.news_kuai_tu {
+			width: 38%;
+			float: left;
+		}
+
+		.news_kuai_tu img {
+			width: 100%;
+			min-height: 2rem;
+		}
+
+		.news_kuai {
+			position: relative;
+			padding: 0.2rem 0rem;
+		}
+
+		.news_kuai_bt {
+			margin: 0.1rem 0rem;
+		}
+
+		.dianji {
+			background: #0093dd;
+			color: #fff;
+			width: 2rem;
+			text-align: center;
+			padding: 0.1rem 0.1rem;
+			font-size: 0.32rem;
+			margin-top: 0.2rem;
+		}
+	</style>
+	<!--新闻-->
+	<div class="news">
+		
+
+		{volist name="news" id="n"}
+			<div class="news_kuai">
+				<a href="{:url('index/detail_nav',['nav_id'=>$n.nav_id])}">
+					<div class="news_kuai_tu">
+						<img src="{$n.document}" />
+					</div>
+					<div class="news_kuai_wen">
+						<div class="news_kuai_bt">
+							<div class="kuai_bt_bt">
+								{$n.title}
+							</div>
+
+						</div>
+						<div class="news_kuai_nr">
+							 {$n.profile}
+						</div>
+						<div class="dianji">
+							<a href="{:url('index/detail_nav',['nav_id'=>$n.nav_id])}">点击查看</a>
+						</div>
+					</div>
+				</a>
+			</div>
+		 {/volist}
+
+
+	</div>
+
+ <style type="text/css">
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.kuai_bt_bt{
+		overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+	}
+      .pages_other {margin: 20px auto;text-align: center; height: 30px}
+    .pages_other > .pagination {float: left;left: 50%;position: relative;}
+    .pages_other > .pagination > li {background: #bbb;float: left;margin: 0 5px;position: relative;right: 50%; height: 30px; line-height: 30px;padding:0;}
+    .pages_other > .pagination > li.active {background-color: #9a443b;}
+    .pages_other > .pagination > li:hover>a{border-bottom: none !important}
+    .pages_other > .pagination > li > span,.pages_other > .pagination > li > a {color: #red;padding: 0 10px; display: block;height: 30px; line-height: 30px;}
+</style>
+            </div>
+            <div class="pages_other">
+                      {$news->render();}
+                 </div>
+        </div>
+
+
+
+{include file="common/footer"}

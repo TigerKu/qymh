@@ -1,0 +1,3141 @@
+[ 2019-06-27T17:05:51+08:00 ] 172.17.138.31 123.139.21.112 GET /
+[ log ] 47.95.115.143/ [运行时间：0.062311s][吞吐率：16.05req/s] [内存消耗：4,561.35kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000183s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000238s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000618s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000272s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000471s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000250s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000245s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000253s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000249s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000313s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000253s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000205s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000250s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000482s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000256s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000363s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000249s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000326s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000256s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:05:54+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/7.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/7.html [运行时间：0.046913s][吞吐率：21.32req/s] [内存消耗：3,744.68kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000491s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000200s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000389s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:05:55+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/8.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/8.html [运行时间：0.043631s][吞吐率：22.92req/s] [内存消耗：3,448.75kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/news/category_id/7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000186s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000263s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 8 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 8 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:39+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/joinus.html
+[ log ] 47.95.115.143/index.php/index/index/joinus.html [运行时间：0.046945s][吞吐率：21.30req/s] [内存消耗：3,827.95kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'joinus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->joinus[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/joinus.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000261s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_program` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_program` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 91 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 91 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:40+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/8.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/8.html [运行时间：0.042843s][吞吐率：23.34req/s] [内存消耗：3,448.80kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/joinus.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000282s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 8 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 8 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000352s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:41+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/contact.html
+[ log ] 47.95.115.143/index.php/index/index/contact.html [运行时间：0.042916s][吞吐率：23.30req/s] [内存消耗：3,476.87kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'contact',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/news/category_id/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->contact[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/contact.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 2 LIMIT 1 [ RunTime:0.000329s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:49+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/about.html
+[ log ] 47.95.115.143/index.php/index/index/about.html [运行时间：0.045378s][吞吐率：22.04req/s] [内存消耗：3,632.86kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/contact.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->about[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/about.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_about',
+  14 => 'nav_develop',
+  15 => 'nav_technical',
+  16 => 'nav_information',
+  17 => 'nav_information2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000244s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 2 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 17 [ RunTime:0.000349s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 56 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 57 LIMIT 1 [ RunTime:0.000223s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:51+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php
+[ log ] 47.95.115.143/index.php [运行时间：0.055905s][吞吐率：17.89req/s] [内存消耗：4,318.48kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000386s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000282s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000185s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000252s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000211s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000561s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000244s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000393s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000226s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000213s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000246s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000329s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000240s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000420s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000319s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000333s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000239s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:06:52+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/7.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/7.html [运行时间：0.043400s][吞吐率：23.04req/s] [内存消耗：3,540.92kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000206s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000396s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:09+08:00 ] 172.17.138.31 123.139.21.112 GET /admin
+[ log ] 47.95.115.143/admin [运行时间：0.018076s][吞吐率：55.32req/s] [内存消耗：2,373.62kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:12+08:00 ] 172.17.138.31 123.139.21.112 GET /admin/login/index.html
+[ log ] 47.95.115.143/admin/login/index.html [运行时间：0.027742s][吞吐率：36.05req/s] [内存消耗：3,223.49kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/admin/view/login/login.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000264s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:21+08:00 ] 172.17.138.31 123.139.21.112 POST /admin/login/index.html
+[ log ] 47.95.115.143/admin/login/index.html [运行时间：0.023499s][吞吐率：42.55req/s] [内存消耗：3,036.42kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://47.95.115.143',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '32',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin888',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin` WHERE  `adminname` = 'admin'  AND `password` = '7fef6171469e80d32c0559f88b377245' LIMIT 1 [ RunTime:0.000309s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:24+08:00 ] 172.17.138.31 123.139.21.112 GET /admin/login/index.html
+[ log ] 47.95.115.143/admin/login/index.html [运行时间：0.024156s][吞吐率：41.40req/s] [内存消耗：3,032.09kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/admin/view/login/login.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000249s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:49+08:00 ] 172.17.138.31 123.139.21.112 GET /admin/login/index.html
+[ log ] 47.95.115.143/admin/login/index.html [运行时间：0.024222s][吞吐率：41.28req/s] [内存消耗：3,031.91kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/admin/view/login/login.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000253s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:07:57+08:00 ] 172.17.138.31 123.139.21.112 POST /admin/login/index.html
+[ log ] 47.95.115.143/admin/login/index.html [运行时间：0.026606s][吞吐率：37.59req/s] [内存消耗：3,043.02kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://47.95.115.143',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '30',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin` WHERE  `adminname` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin_log` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `dateline` FROM `sp_admin_log` WHERE  (  admin_id = 1 and content = '后台登录' ) ORDER BY dateline desc LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] INSERT INTO `sp_admin_log` (`admin_id` , `adminname` , `content` , `ip` , `dateline`) VALUES (1 , 'admin' , '后台登录' , '123.139.21.112' , '1561626477') [ RunTime:0.000249s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:08:00+08:00 ] 172.17.138.31 123.139.21.112 GET /admin/index/index.html
+[ log ] 47.95.115.143/admin/index/index.html [运行时间：0.029421s][吞吐率：33.99req/s] [内存消耗：3,373.50kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/wwwroot/47.95.115.143/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/admin/view/index/index.html [ array (
+  0 => 'admin_name_nk',
+  1 => 'manage',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin` WHERE  `admin_id` = 1 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin_access` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin_access` WHERE  `access_id` IN (15,16,17,18,20,13,21) [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000190s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:08:01+08:00 ] 172.17.138.31 123.139.21.112 GET /admin/index/welcome.html
+[ log ] 47.95.115.143/admin/index/welcome.html [运行时间：0.030668s][吞吐率：32.61req/s] [内存消耗：3,289.19kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /www/wwwroot/47.95.115.143/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/admin/view/index/welcome.html [ array (
+  0 => 'admin_name_nk',
+  1 => 'manage',
+  2 => 'config',
+  3 => 'ser',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin` WHERE  `admin_id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_admin_access` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_admin_access` WHERE  `access_id` IN (15,16,17,18,20,13,21) [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000203s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:12:52+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php
+[ log ] 47.95.115.143/index.php [运行时间：0.057776s][吞吐率：17.31req/s] [内存消耗：4,318.66kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; Path=/www/wwwroot/47.95.115.143; PHPSESSID=n7d8rk8pe5uit5flt9l941q651',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000282s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000188s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000221s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000542s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000237s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000391s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000227s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000250s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000322s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000219s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000433s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000319s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000335s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000256s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:13:35+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/7.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/7.html [运行时间：0.045013s][吞吐率：22.22req/s] [内存消耗：3,541.18kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000498s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000197s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000391s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:13:36+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/about.html
+[ log ] 47.95.115.143/index.php/index/index/about.html [运行时间：0.043512s][吞吐率：22.98req/s] [内存消耗：3,435.16kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/news/category_id/7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->about[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/about.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_about',
+  14 => 'nav_develop',
+  15 => 'nav_technical',
+  16 => 'nav_information',
+  17 => 'nav_information2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000272s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 2 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 17 [ RunTime:0.000336s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 56 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 57 LIMIT 1 [ RunTime:0.000239s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:15+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/lists_nav/category_id/74.html
+[ log ] 47.95.115.143/index.php/index/index/lists_nav/category_id/74.html [运行时间：0.047681s][吞吐率：20.97req/s] [内存消耗：3,858.16kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists_nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '74',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->lists_nav[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/lists_nav.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'category_id',
+  14 => 'pid',
+  15 => 'det',
+  16 => 'nav',
+  17 => 'nav_sub',
+  18 => 'nav_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 79 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 74 OR (  category_id in (79,80,84,85,86,87,88,90) ) LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 OR (  category_id in (79,80,84,85,86,87,88,90) ) ORDER BY inputtime desc LIMIT 0,4 [ RunTime:0.000382s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:16+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/news/category_id/7.html
+[ log ] 47.95.115.143/index.php/index/index/news/category_id/7.html [运行时间：0.042297s][吞吐率：23.64req/s] [内存消耗：3,541.14kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/lists_nav/category_id/74.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->news[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/news.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_sub',
+  14 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000205s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 0,4 [ RunTime:0.000375s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:17+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/lists_nav/category_id/74.html
+[ log ] 47.95.115.143/index.php/index/index/lists_nav/category_id/74.html [运行时间：0.045571s][吞吐率：21.94req/s] [内存消耗：3,626.03kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists_nav',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/news/category_id/7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '74',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->lists_nav[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/lists_nav.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'category_id',
+  14 => 'pid',
+  15 => 'det',
+  16 => 'nav',
+  17 => 'nav_sub',
+  18 => 'nav_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000268s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 79 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 74 OR (  category_id in (79,80,84,85,86,87,88,90) ) LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 OR (  category_id in (79,80,84,85,86,87,88,90) ) ORDER BY inputtime desc LIMIT 0,4 [ RunTime:0.000397s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:17+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php/index/index/about.html
+[ log ] 47.95.115.143/index.php/index/index/about.html [运行时间：0.043983s][吞吐率：22.74req/s] [内存消耗：3,434.86kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'about',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/lists_nav/category_id/74.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->about[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/about.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'd',
+  13 => 'nav_about',
+  14 => 'nav_develop',
+  15 => 'nav_technical',
+  16 => 'nav_information',
+  17 => 'nav_information2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000258s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 2 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 17 [ RunTime:0.000333s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 56 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `nav_id` = 57 LIMIT 1 [ RunTime:0.000231s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:19+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php
+[ log ] 47.95.115.143/index.php [运行时间：0.055215s][吞吐率：18.11req/s] [内存消耗：4,318.41kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php/index/index/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000178s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000215s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000543s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000366s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000229s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000238s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000305s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000428s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000335s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000311s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000237s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:14:23+08:00 ] 172.17.138.31 123.139.21.112 GET /index.php
+[ log ] 47.95.115.143/index.php [运行时间：0.056463s][吞吐率：17.71req/s] [内存消耗：4,318.48kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://47.95.115.143/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'BT_PANEL=66ab9fb18b6da166894d032d72b3ed91ea4e88a0; serverType=apache; order=id%20desc; memSize=3790; conterError=; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; backup_path=/www/backup; memRealUsed=227; mem-before=227/3790%20%28MB%29; five=1.04; fifteen=1.04; one=0.92; upNet=3.83; downNet=1.44; vcodesum=6; softType=2; BatchPaste=null; PHPSESSID=n7d8rk8pe5uit5flt9l941q651; Path=/www/wwwroot/47.95.115.143',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000199s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000222s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000261s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000515s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000252s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000398s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000231s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000261s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000338s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000254s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000210s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000429s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000319s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000323s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000237s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T17:32:21+08:00 ] 172.17.138.31 185.234.217.11 GET /seeyon/htmlofficeservlet
+[ log ] 47.95.115.143/seeyon/htmlofficeservlet [运行时间：0.013652s][吞吐率：73.25req/s] [内存消耗：1,666.02kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'seeyon',
+    1 => 'htmlofficeservlet',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://47.95.115.143/seeyon',
+  'accept' => 'text/html, application/xhtml+xml, image/jxr, */*',
+  'accept-language' => 'en-US, en; q=0.8, zh-Hans-CN; q=0.5, zh-Hans; q=0.3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240',
+  'host' => '47.95.115.143',
+  'connection' => 'Close',
+  'content-type' => 'application/x-www-form-urlencoded',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-06-27T18:39:18+08:00 ] 172.17.138.31 178.94.14.220 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.054323s][吞吐率：18.41req/s] [内存消耗：4,317.09kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000288s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000196s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000224s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000506s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000415s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000235s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000257s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000321s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000427s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000327s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000327s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000245s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T18:41:18+08:00 ] 172.17.138.31 190.210.41.151 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.054646s][吞吐率：18.30req/s] [内存消耗：4,317.34kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000414s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000279s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000200s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000220s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000507s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000240s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000383s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000222s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000251s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000319s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000205s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000421s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000328s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000320s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000231s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T19:49:41+08:00 ] 172.17.138.31 88.242.106.232 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.052909s][吞吐率：18.90req/s] [内存消耗：4,317.34kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000278s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000180s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000213s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000220s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000544s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000218s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000353s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000245s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000233s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000227s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000301s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000201s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000216s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000415s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000303s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000223s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000233s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T19:51:02+08:00 ] 172.17.138.31 110.77.200.26 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.055570s][吞吐率：18.00req/s] [内存消耗：4,317.34kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000190s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000270s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000216s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000251s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000531s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000385s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000230s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000248s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000252s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000308s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000230s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000218s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000237s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000417s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000237s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000313s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000251s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T21:53:29+08:00 ] 172.17.138.31 138.121.61.85 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.055287s][吞吐率：18.09req/s] [内存消耗：4,317.09kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000286s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000182s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000269s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000226s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000245s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000519s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000240s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000391s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000250s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000225s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000253s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000321s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000216s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000429s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000315s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000234s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000241s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000331s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000247s ]
+
+---------------------------------------------------------------
+[ 2019-06-27T22:47:22+08:00 ] 172.17.138.31 191.23.98.22 GET /
+[ log ] 47.95.115.143:80/ [运行时间：0.054347s][吞吐率：18.40req/s] [内存消耗：4,317.35kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/47.95.115.143/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '47.95.115.143:80',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/47.95.115.143/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/47.95.115.143/application/index/view/index/index.html [ array (
+  0 => 'config',
+  1 => 'ext_css',
+  2 => 'ext_js',
+  3 => 'logo',
+  4 => 'logo2',
+  5 => 'nav_category',
+  6 => 're',
+  7 => 'links',
+  8 => 'data1',
+  9 => 'id',
+  10 => 'g',
+  11 => 'di',
+  12 => 'data',
+  13 => 'server',
+  14 => 'pin',
+  15 => 'you',
+  16 => 'doc',
+  17 => 'qq',
+  18 => 'peo',
+  19 => 'fu',
+  20 => 'products',
+  21 => 'nav_sub',
+  22 => 'news',
+  23 => 'cases',
+  24 => 'abouts',
+  25 => 'yo',
+  26 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_system_setting` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_system_setting` [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_logo` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_logo` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav_category` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 0 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 7 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 79 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 80 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 84 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 85 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 86 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 87 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 88 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 90 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 8 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 21 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 81 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 83 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 82 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 89 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 91 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 92 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_contact_way` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` WHERE  `id` = 1 ORDER BY id desc LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_link` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_link` LIMIT 4 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_roasting` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_roasting` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_lun` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_lun` ORDER BY `id`  desc [ RunTime:0.000194s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 74 [ RunTime:0.000212s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_nav` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` IN (79,80,84,85,86,87,88,90) ORDER BY `nav_id`  asc [ RunTime:0.000515s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000242s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 74 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000232s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 75 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000224s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 83 ORDER BY `nav_id`  asc [ RunTime:0.000397s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000222s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_contact_way` ORDER BY `id`  desc [ RunTime:0.000229s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sp_people` [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_people` ORDER BY `id`  desc [ RunTime:0.000257s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000228s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `sp_nav` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 22 ORDER BY `nav_id`  desc LIMIT 0,5 [ RunTime:0.000330s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000233s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  asc LIMIT 4 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `sp_nav_category` WHERE  `pid` = 3 [ RunTime:0.000214s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 7 ORDER BY `nav_id`  desc LIMIT 8 [ RunTime:0.000413s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 14 ORDER BY `nav_id`  desc LIMIT 6 [ RunTime:0.000313s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000231s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 21 ORDER BY `nav_id`  desc LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_nav` WHERE  `category_id` = 18 ORDER BY `nav_id`  desc LIMIT 7 [ RunTime:0.000321s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000217s ] mysql:dbname=sql47_95_115_14;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `sp_link` ORDER BY `link_id`  desc [ RunTime:0.000247s ]
+
+---------------------------------------------------------------

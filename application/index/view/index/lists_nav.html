@@ -1,0 +1,46 @@
+
+{include file="common/header"}
+
+    <section>
+        <!-- <img src="/public/pc/img/10.png" class="page-img" alt=""> -->
+         <img src="{$d.thumb}" class="page-img" alt="">
+        <div class="page-solu-top">
+            <ul class="page-solu-nav">
+                {volist name="nav_sub" id="nav"}
+                   <li><a href="{:url('Index/lists_nav',['category_id'=>$nav.category_id])}">{$nav.name}</a></li>
+                {/volist}
+                <!-- <li><a href="">外包案例</a></li> -->
+            </ul>
+        </div>
+        <div class="page-solution">
+            <div class="page-solu-con">
+                <ul>
+                    <li>
+                        {$det.content}
+                    </li> 
+                </ul>
+            </div>
+           
+        </div>
+    </section>
+   <style type="text/css">
+       .page-solution{
+        padding-bottom: 50px;
+       }
+   </style>
+{include file="common/footer"}
+
+
+<script src="/public/pc/js/jquery.js"></script>
+<script>
+    $(function () {
+        // $('.page-solu-nav').find('li').eq(0).attr('class', 'page-solu-active');
+        $('.page-solu-con').find('ul>li').eq(0).css({'display':'block'});
+        $('.page-solu-nav').find('li').click(function () {
+            $('.page-solu-nav').find('li').attr('class', '');
+            $('.page-solu-con').find('ul>li').css({'display':'none'});
+            // $(this).attr('class', 'page-solu-active');
+            $('.page-solu-con').find('ul>li').eq($(this).index()).css({'display':'block'});
+        })
+    })
+</script>

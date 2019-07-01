@@ -1,0 +1,346 @@
+.liaojie p {
+	font-size: 0.3rem;
+	color: #9b9b9b;
+	line-height: 0.4rem;
+}
+
+.biaoti {
+	font-size: 0.45rem;
+	color: #000;
+	font-weight: 800;
+	margin-bottom: 0.45rem;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+.liaojie {
+	text-align: center;
+	padding: 0.5rem 0rem;
+	padding-bottom: 1.2rem;
+}
+
+.but {
+	display: inline-block;
+	width: 3rem;
+	text-align: center;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	color: #fff;
+	margin: 0rem 0.5rem;
+	background: #02A7FA;
+	margin-top: 0.75rem;
+	background: -webkit-linear-gradient(-150deg, #0090FF, #1EC3F8);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(-150deg, #0090FF, #1EC3F8);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-150deg, #0090FF, #1EC3F8);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(-150deg, #0090FF, #1EC3F8);
+	/* 标准的语法（必须放在最后） */
+	font-size: 0.35rem;
+}
+
+.hangye {
+	text-align: center;
+	background: #EFF4F7;
+}
+
+.hangye_z {
+	padding-top: 0.8rem;
+	padding-bottom: 0.4rem;
+}
+
+.biaoti1 {
+	font-size: 0.45rem;
+	color: #000;
+	font-weight: 800;
+	margin-bottom: 0.15rem;
+}
+
+.hangye p {
+	font-size: 0.3rem;
+	color: #9b9b9b;
+	line-height: 0.45rem;
+}
+
+.sikuai {
+	background: #232323;
+	overflow: auto;
+}
+
+.sk_kuai {
+	width: 49.8%;
+	float: left;
+	border-right: 1px solid #575757;
+	border-bottom: 1px solid #575757;
+	padding: 0.65rem 0rem;
+}
+
+.sk_kuai_tu img {
+	width: 1rem;
+	height: 1rem;
+	margin-bottom: 0.1rem;
+}
+
+.sk_kuai p {
+	color: #01A2FF;
+	line-height: 0.5rem;
+}
+
+.guanyu {
+	text-align: center;
+}
+
+.biaoti2 {
+	background: #01A8FF;
+	color: #fff;
+	padding: 0.6rem 0rem;
+}
+
+.biaoti2 h2 {
+	font-size: 0.58rem;
+	font-weight: 100;
+	letter-spacing: 0.1rem;
+}
+
+.biaoti2 p {
+	font-size: 0.32rem;
+	margin-top: 0.2rem;
+}
+
+.neirong {
+	padding-top: 1rem;
+	padding-bottom: 0.6rem;
+	overflow: auto;
+}
+
+.nr_san_tu img {
+	width: 1.7rem;
+	height: 1.7rem;
+}
+
+.nr_san p {
+	font-size: 0.32rem;
+	color: #111111;
+	margin-bottom: 0.25rem;
+}
+
+.nr_san span {
+	display: inline-block;
+	/* width: 2rem; */
+	margin: 0px auto;
+	font-size: 0.23rem;
+	color: #fff;
+	background: -webkit-linear-gradient(left top, #1EC3F8, #0090FF);
+	background: -o-linear-gradient(bottom right, #1EC3F8, #0090FF);
+	background: -moz-linear-gradient(bottom right, #1EC3F8, #0090FF);
+	background: linear-gradient(to bottom right, #1EC3F8, #0090FF);
+	padding: 0.05rem 0.3rem;
+}
+
+.nr_san {
+	float: left;
+	width: 33.333%;
+}
+
+.renxing {
+	text-align: center;
+	overflow: auto;
+}
+
+.biaoti3 {
+	font-size: 0.45rem;
+	color: #000;
+	font-weight: 800;
+	margin-bottom: 0.15rem;
+}
+
+.renxing1 p {
+	font-size: 0.26rem;
+	color: #aeaeae;
+	line-height: 0.45rem;
+}
+
+.renxing1 {
+	background: #EFF4F7;
+	padding: 0.55rem 0rem;
+}
+
+.rx_nr_kuai {
+	float: left;
+	width: 49.8%;
+	border-right: 1px solid #6c6c6c;
+	padding: 0.55rem 0rem;
+}
+
+.rx_nr {
+	overflow: auto;
+	background: #232323;
+	color: #fff;
+}
+
+.rx_nr_kuai_tu img {
+	width: 1rem;
+	height: 1rem;
+}
+
+.rx_nr_kuai p {
+	font-size: 0.28rem;
+	line-height: 0.4rem;
+}
+
+.rx_sikuang {
+	overflow: auto;
+	padding: 0.3rem 0.23rem;
+}
+
+.rx_sikuang_kuai {
+	background: -webkit-linear-gradient(-150deg, #6BC3FA, #90F6F6, #6BC3FA);
+	background: -o-linear-gradient(-150deg, #6BC3FA, #90F6F6, #6BC3FA);
+	background: -moz-linear-gradient(-150deg, #6BC3FA, #90F6F6, #6BC3FA);
+	background: linear-gradient(-150deg, #6BC3FA, #90F6F6, #6BC3FA);
+	color: #fff;
+	margin: 0.21rem auto;
+	padding: 0.3rem 0.4rem;
+	width: 70%;
+	/* float: left; */
+}
+
+.rx_sikuang_kuai h3 {
+	margin-bottom: 0.6rem;
+	font-size: 0.41rem;
+	margin-top: 0.2rem;
+}
+
+.rx_sikuang_kuai_tu img {
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-bottom: 0.6rem;
+}
+
+.rx_sikuang_kuai p {
+	font-size: 0.3rem;
+	height: 0.8rem;
+}
+
+.rx_sikuang_kuai span {
+	font-size: 0.243rem;
+	display: block;
+	width: 1rem;
+	margin: 0px auto;
+	background: #3CA7FC;
+	padding: 0.05rem 0.2rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.2rem;
+}
+
+.rx_sikuang_wushi {
+	width: 50%;
+	float: left;
+	overflow: auto;
+}
+
+.dibu1 {
+	text-align: center;
+	padding: 0.9rem 0rem;
+}
+
+.dibu1 .db_gs {
+	font-size: 0.32rem;
+}
+
+.dibu1 .db_ba {
+	font-size: 0.3rem;
+	color: #555555;
+}
+
+.shouhou {
+	color: #FFFFFF;
+	padding: 1.5rem 0rem;
+	text-align: center;
+}
+
+.sh_block {
+	margin: 0px auto;
+	overflow: auto;
+	display: inline-block;
+}
+
+.sh_block .sh_dh {
+	display: block;
+	width: 1rem;
+	text-align: center;
+	background: #0082D0;
+	font-size: 0.34rem;
+	padding: 0.1rem;
+	float: left;
+}
+
+.sh_block p {
+	float: left;
+	line-height: 1rem;
+	margin-left: 0.2rem;
+	font-size: 0.7rem;
+}
+
+
+/*加入a标签样式*/
+
+.but a {
+	color: #fff;
+	font-size: 0.35rem;
+	text-decoration: none;
+	display: block;
+}
+.rx_nr a{
+	color: #FFFFFF;
+}
+
+
+/**/
+html,
+			body {
+				position: relative;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				height: auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			.swiper-slide img {
+				width: 100%;
+			}
+			
+			.swiper-pagination-bullet {
+				width: 0.2rem !important;
+				height: 0.2rem !important;
+			}
+			
+			.swiper-container {
+				z-index: 0;
+			}

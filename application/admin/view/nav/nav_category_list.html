@@ -1,0 +1,78 @@
+{include file="common/_meta2" /}
+<title>分类管理</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span>文章分类管理 <span class="c-gray en">&gt;</span> 分类管理 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+	<div class="cl pd-5 bg-1 bk-gray mt-20">
+		<span class="l">
+			<a class="btn btn-primary radius" onclick="nav_category_add('添加分类','{:url(\'nav/nav_category_add\')}',800,500)" href="javascript:;">
+				<i class="Hui-iconfont">&#xe600;</i> 添加分类
+			</a>
+		</span>
+		<span class="r">共有数据：<strong>{$count}</strong> 条</span>
+	</div>
+	<div class="mt-20" id="ajax_data">
+		<table class="table table-border table-bordered table-hover table-bg table-sort">
+			<thead>
+				<tr class="text-c">
+					<th width="25"><input type="checkbox" name="" value=""></th>
+					<th width="80">ID</th>
+					<th>分类名称</th>
+					<th width="150">分类</th>
+					<th width="150">别名</th>
+					<th width="150">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				{volist name="list" id="vo"}
+				<tr class="text-c">
+					<td><input type="checkbox" name="ids[]" value="{$vo.category_id}"></td>
+					<td>{$vo.category_id}</td>
+					<td class="text-l"><strong>{$vo.name}</strong></td>
+					<td>{$vo.path}</td>
+					<td>{$vo.ename}</td>
+					<td class="f-14">
+						<a title="编辑" href="javascript:;" onclick="nav_category_edit('分类编辑','{:url(\'nav/nav_category_edit\',[\'category_id\'=>$vo.category_id])}','{$vo.category_id}','800','550')" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
+				
+						<a title="删除" href="javascript:;" onclick="nav_category_del(this,'{$vo.category_id}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
+					</td>
+				</tr>
+					
+				{/volist}
+			</tbody>
+		</table>
+	</div>
+</div>
+{include file="common/_script2" /}
+<script type="text/javascript">
+/*系统-分类-添加*/
+function nav_category_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*系统-分类-编辑*/
+function nav_category_edit(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*系统-分类-删除*/
+function nav_category_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type: "POST",
+			url: "{:url('nav/nav_category_del')}",
+			data: {category_id:id},
+			dataType: "json",
+			success: function(data){
+				if(data.success == 1){
+					$(obj).parents("tr").remove();
+					layer.msg('已删除!',{icon:1,time:1000});
+				}else{
+					layer.msg('删除失败!',{icon:1,time:1000});
+				}
+			}
+		});
+	});
+}
+</script>
+</body>
+</html>

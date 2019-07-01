@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/public/pc/css/header.css">
+    <link rel="stylesheet" href="/public/pc/css/swiper.css">
+    <link rel="stylesheet" href="/public/pc/css/index.css">
+    <link rel="stylesheet" href="/public/pc/css/footer.css">
+    <meta name="Keywords" content="{$config.keywords}" />
+    <meta name="description" content="{$config.description}"> 
+    <title>{$config.site_title}</title>
+</head>
+    <script type="text/javascript">
+                try {
+                    var urlhash = window.location.hash;
+                    if(!urlhash.match("fromapp")) {
+                        if((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+                            window.location = "/index.php/mobile";
+                        }
+                    }
+                } catch(err) {}
+    </script>
+<body>
+    <header>
+        <div class="top-msg-area">
+            <div class="top-msg">
+              <!-- <img src="/public/pc/img/logo.png" alt="" class="top-logo"> --> 
+
+                {notempty name="$logo"}
+                      <img src="{$logo.thumb}" alt="" class="top-logo">
+                          {else/}
+                       <img src="/public/pc/img/head-logo.png" alt="" class="top-logo">
+                {/notempty}
+
+                <ul class="top-msg-list">
+                    <li>
+                        <img src="/public/pc/img/1.png" alt="">
+                        <div class="msg-con">
+                            <span>服务热线电话</span>
+                            <span>{$re.phone}</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/public/pc/img/2.png" alt="">
+                        <div class="msg-con">
+                            <span>我们的地址</span>
+                            <span>{$re.address}</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/public/pc/img/3.png" alt="">
+                        <div class="msg-con">
+                            <span>我们的服务时间</span>
+                            <span>{$config.time}</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/public/pc/img/3-1.png" alt="">
+                        <div class="msg-con">
+                            <span>我们邮箱</span>
+                            <span>{$re.email}</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="top-nav">
+            <ul>        
+                <li><a href="/index.php">首页</a></li>
+                <li><a href="{:url('Index/about')}">关于我们</a></li>
+                <li><a href="{:url('Index/lists_nav',['category_id'=>74])}">解决方案</a></li>
+                <li><a href="{:url('Index/news',['category_id'=>7])}">新闻中心</a></li>
+                <li><a href="{:url('Index/news',['category_id'=>8])}">慈善公益</a></li>
+                <li><a href="{:url('Index/contact')}">联系我们</a></li>
+                <li><a href="{:url('Index/joinus')}">加入隆晟</a></li>
+                <li><a href="{:url('Index/staff')}">员工展示</a></li>
+            </ul>
+        </div>
+    </header>

@@ -1,0 +1,416 @@
+/*网站类型*/
+
+
+/*css动画1*/
+
+.biaoti {
+	margin-bottom: 0px !important;
+}
+
+.hover1 {
+	box-shadow: 0px 0px 8px #00A2FF;
+	border: 1px solid #00A2FF;
+}
+
+.hover1 h3 {
+	color: #00A2FF;
+}
+
+.hover1 a {
+	color: #00A2FF;
+}
+
+@keyframes fade-in {
+	0% {
+		box-shadow: 0px 0px 8px #bde7ff;
+		border: 1px solid #bde7ff;
+	}
+	/*初始状态 透明度为0*/
+	40% {
+		box-shadow: 0px 0px 8px #92D7FF;
+		border: 1px solid #92D7FF;
+	}
+	/*过渡状态 透明度为0*/
+	100% {
+		box-shadow: 0px 0px 8px #00A2FF;
+		border: 1px solid #00A2FF;
+	}
+	/*结束状态 透明度为1*/
+}
+
+@-webkit-keyframes fade-in {
+	/*针对webkit内核*/
+	0% {
+		box-shadow: 0px 0px 8px #bde7ff;
+		border: 1px solid #bde7ff;
+	}
+	40% {
+		box-shadow: 0px 0px 8px #92D7FF;
+		border: 1px solid #92D7FF;
+	}
+	100% {
+		box-shadow: 0px 0px 8px #00A2FF;
+		border: 1px solid #00A2FF;
+	}
+}
+
+.hover1 {
+	animation: fade-in;
+	/*动画名称*/
+	animation-duration: 1s;
+	/*动画持续时间*/
+	-webkit-animation: fade-in 1s;
+	/*针对webkit内核*/
+}
+
+@keyframes ziti1 {
+	0% {
+		color: #bde7ff;
+	}
+	/*初始状态 透明度为0*/
+	40% {
+		color: #92D7FF;
+	}
+	/*过渡状态 透明度为0*/
+	100% {
+		color: #00A2FF;
+	}
+	/*结束状态 透明度为1*/
+}
+
+@-webkit-keyframes ziti1 {
+	/*针对webkit内核*/
+	0% {
+		color: #bbe6ff;
+	}
+	40% {
+		color: #92D7FF;
+	}
+	100% {
+		color: #00A2FF;
+	}
+}
+
+.hover1 h3 {
+	animation: ziti1;
+	/*动画名称*/
+	animation-duration: 1s;
+	/*动画持续时间*/
+	-webkit-animation: ziti1 1s;
+}
+
+.hover1 a {
+	animation: ziti1;
+	/*动画名称*/
+	animation-duration: 1s;
+	/*动画持续时间*/
+	-webkit-animation: ziti1 1s;
+}
+
+
+/*css动画1*/
+
+
+/*案例展示*/
+
+@keyframes zhanshi {
+	0% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .15);
+		z-index: 999;
+		display: none;
+	}
+	10% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .2);
+		z-index: 999;
+		display: none;
+	}
+	20% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .25);
+		z-index: 999;
+		display: none;
+	}
+	30% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .28);
+		z-index: 999;
+		display: none;
+	}
+	/*初始状态 透明度为0*/
+	40% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .3);
+		z-index: 999;
+		display: none;
+	}
+	50% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .35);
+		z-index: 999;
+		display: none;
+	}
+	/*过渡状态 透明度为0*/
+	60% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .4);
+		z-index: 999;
+		display: none;
+	}
+	70% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .5);
+		z-index: 999;
+		display: none;
+	}
+	80% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .55);
+		z-index: 999;
+		display: none;
+	}
+	90% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .6);
+		z-index: 999;
+		display: none;
+	}
+	100% {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		background: rgba(0, 0, 0, .65);
+		z-index: 999;
+		display: none;
+	}
+	/*结束状态 透明度为1*/
+}
+
+@-webkit-keyframes zhanshi {
+	/*针对webkit内核*/
+	0% {
+		color: #bbe6ff;
+	}
+	40% {
+		color: #92D7FF;
+	}
+	100% {
+		color: #00A2FF;
+	}
+}
+
+.anli_kuai_bottom img {
+	width: 100%;
+	height: 100%;
+}
+
+.mengce {
+	animation: zhanshi;
+	/*动画名称*/
+	animation-duration: .8s;
+	/*动画持续时间*/
+	-webkit-animation: zhanshi .8s;
+}
+
+.mengce {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, .65);
+	z-index: 999;
+	top: 0px;
+	display: none;
+}
+
+@keyframes xiaokuang {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 0.1;
+	}
+	20% {
+		opacity: 0.2;
+	}
+	30% {
+		opacity: 0.3;
+	}
+	/*初始状态 透明度为0*/
+	40% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	/*过渡状态 透明度为0*/
+	60% {
+		opacity: 0.6;
+	}
+	70% {
+		opacity: 0.7;
+	}
+	80% {
+		opacity: 0.8;
+	}
+	90% {
+		opacity: 0.9;
+	}
+	100% {
+		opacity: 1;
+	}
+	/*结束状态 透明度为1*/
+}
+
+@-webkit-keyframes xiaokuang {
+	/*针对webkit内核*/
+	0% {
+		color: #bbe6ff;
+	}
+	40% {
+		color: #92D7FF;
+	}
+	100% {
+		color: #00A2FF;
+	}
+}
+
+.xiaokuang {
+	opacity: 1;
+	position: absolute;
+	top: 1px;
+}
+
+.xiaokuang {
+	animation: xiaokuang;
+	/*动画名称*/
+	animation-duration: .8s;
+	/*动画持续时间*/
+	-webkit-animation: xiaokuang .8s;
+	    height: 100%;
+}
+
+.mengce .mengceng_fff {
+	color: #FFFFFF;
+	padding: 0px 70px;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 82px;
+	margin-bottom: 43px;
+}
+@media screen and (min-width: 1300px) and (max-width: 1360px) {
+	.mengce .mengceng_fff {
+		margin-top: 5% !important;
+		margin-bottom: 5% !important;
+	}
+}
+.mengce .xiangqing {
+	color: #FFFFFF;
+	display: block;
+	background: #00A2FF;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+}
+
+.mengceng_fff h3 {
+	margin-bottom: 15px;
+}
+
+
+/*关于我们*/
+
+@-webkit-keyframes gy_top_right_buttom_kuai_wen {
+	/*针对webkit内核*/
+	0% {
+		color: #4bb9f8;
+	}
+	40% {
+		color: #24aaf8;
+	}
+	100% {
+		color: #00A2FF;
+	}
+}
+
+.anli_kuai_bottom img {
+	width: 100%;
+	height: 100%;
+}
+
+.ziti2 {
+	color: #00A2FF;
+}
+
+.ziti2 {
+	animation: gy_top_right_buttom_kuai_wen;
+	/*动画名称*/
+	animation-duration: 1.2s;
+	/*动画持续时间*/
+	-webkit-animation: gy_top_right_buttom_kuai_wen 1.2s;
+}
+
+
+/*导航*/
+
+@-webkit-keyframes daohang1 {
+	/*针对webkit内核*/
+	0% {
+		line-height: 100px;
+	}
+	100% {
+		line-height: 67px;
+	}
+}
+
+.daohang1 {
+	line-height: 67px;
+	animation: daohang1;
+	/*动画名称*/
+	animation-duration: 0.8s;
+	/*动画持续时间*/
+	-webkit-animation: daohang1 0.8s;
+}
+
+/*移出*/
+@-webkit-keyframes daohang2 {
+	/*针对webkit内核*/
+	0% {
+	
+		line-height: 67px;
+	}
+	100% {
+			line-height: 100px;
+	}
+}
+
+.daohang2 {
+	line-height: 100px;
+	animation: daohang2;
+	/*动画名称*/
+	animation-duration: 0.8s;
+	/*动画持续时间*/
+	-webkit-animation: daohang2 0.8s;
+}

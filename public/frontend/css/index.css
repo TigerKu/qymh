@@ -1,0 +1,714 @@
+.sort {
+	background: #fff;
+	padding-top: 56px;
+	padding-bottom: 75px;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+}
+
+.kuai {
+	width: 128px;
+	height: 350px;
+	border: 1px solid #efefef;
+	text-align: center;
+	color: #999999;
+	padding: 0px 46px;
+	padding-top: 30px;
+	float: left;
+	margin: 10px 9px;
+}
+
+.kuai .kuai_wen {
+	font-size: 14px;
+	line-height: 25px;
+	margin: 20px 0px;
+	margin-bottom: 10px;
+	;
+}
+
+.kuai .kuai_tu {
+	margin-bottom: 26px;
+}
+
+.kuai a {
+	color: #2a3a4a;
+	font-size: 13px;
+}
+
+.kuai h3 {
+	color: #000;
+	font-size: 23px;
+	font-weight: 200;
+}
+
+.guanyu {
+	background-image: url(../img/beijing.png);
+	background-size: 100% auto;
+	padding: 25px 0px;
+}
+
+.anli .juzhong {
+	overflow: auto;
+}
+
+.hezuo {
+	width: 1182px;
+	margin: auto;
+	background: #ffffffa3;
+	text-align: center;
+	padding: 8px 0px;
+	margin-top: 37px;
+}
+
+.gy_top {
+	width: 90%;
+	height: 917px;
+	background: rgba(255, 255, 255, 0.5);
+	position: relative;
+	margin: 0px auto;
+}
+
+.gy_top_left {
+	position: absolute;
+	bottom: 0px;
+	width: 40%;
+}
+
+.gy_top_left img {
+	width: 100%;
+}
+
+.gy_top_right {
+	float: right;
+	width: 55%;
+	margin-top: 190px;
+}
+
+.gy_top_right h1 {
+	color: #fff;
+	margin-bottom: 60px;
+	padding-left: 59px;
+	letter-spacing: 6px;
+	font-weight: 100;
+}
+
+.gy_top_right h1 img {
+	position: relative;
+	top: 13px;
+	left: 6px;
+}
+
+.gy_top_right_buttom_kuai_wen {
+	float: left;
+	width: 51%;
+	color: #FFFFFF;
+	position: relative;
+	top: 12px;
+	left: 17px;
+}
+
+.gy_top_right_buttom_kuai_wen p {
+	font-size: 14.25px;
+	height: 50px;
+	overflow: hidden;
+}
+
+.gy_top_right_buttom_kuai_wen h3 {
+	margin-bottom: 7px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.gy_top_right_buttom_kuai_tu {
+	width: 10%;
+	text-align: center;
+	float: left;
+}
+
+.gy_top_right_buttom_kuai_tu img {
+	width: 100%;
+	height: auto;
+}
+
+.gy_top_right_buttom_kuai {
+	overflow: hidden;
+	margin-bottom: 54px;
+	    position: relative;	
+}
+
+.gy_bottom {
+	width: 1200px;
+	margin: 0px auto;
+	overflow: hidden;
+	margin-top: 40px;
+	padding-top: 20px;
+}
+
+.gy_bottom_kuai {
+	color: #FFFFFF;
+	background: rgba(255, 255, 255, 0.5);
+	width: 17%;
+	text-align: center;
+	padding: 50px 38px;
+	float: left;
+	margin: 0px 10px;
+}
+
+.kuai .kuai_wen {
+	color: #999999;
+}
+
+.gy_bottom_kuai .liaojie {
+	color: #fff;
+	background: #3ca7fc;
+	padding: 6px 21px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.liaojie1{
+	color: #FFFFFF;
+}
+.gy_bottom_kuai p {
+	margin-bottom: 20px;
+}
+
+.gy_bottom_kuai_tu img {
+	margin-top: 75px;
+	margin-bottom: 60px;
+}
+
+.kuai3 {
+	display: inline-block;
+	text-align: center
+}
+
+.anli .j .hezuo {
+	width: 1181px;
+	background: rgba(255, 255, 255, 0.5);
+	position: relative;
+	margin: 0px auto;
+	overflow: auto;
+	margin-top: 26px;
+	padding: 32px 0px;
+	text-align: center;
+	padding-bottom: 14px;
+}
+
+.hezuo a {
+	color: #000;
+}
+
+.kuai3 span {
+	font-size: 23px;
+	position: relative;
+	top: -17px;
+	margin: 0px 10px;
+	margin-right: 65px;
+}
+
+.chanpin {
+	text-align: center;
+	padding: 135px 0px;
+	background: #FFFFFF;
+}
+
+.kuai_cp {
+	text-align: center;
+	color: #000000;
+	float: left;
+	margin: 0px 47px;
+}
+
+.kuai_cp_tu {
+	width: 305px;
+	height: 305px;
+	border-radius: 500px;
+	overflow: hidden;
+}
+
+.kuai_cp h3 {
+	margin-top: 30px;
+	font-weight: 100;
+	font-size: 23px;
+}
+
+.chanpin .biaoti {
+	margin-bottom: 60px;
+}
+
+
+/*底部css*/
+
+.dibu {
+	background: #0072a6;
+	color: #FFFFFF;
+}
+
+.db_doahang {
+	text-align: center;
+	padding: 30px 0px;
+	box-shadow: -2px 0px 15px #3a2f2f;
+}
+
+.db_doahang ul li {
+	display: inline-block;
+	font-size: 21px;
+	margin: 0px 12px;
+}
+
+.db_xinxi_left h4 {
+	font-size: 16px;
+}
+
+.db_xinxi_left p {
+	font-size: 17px;
+}
+
+.db_xinxi {
+	text-align: center;
+	padding: 64px 0px;
+	line-height: 32px;
+}
+
+.db_xinxi_left,
+.db_xinxi_right {
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.db_xinxi_right .erweima {
+	display: inline-block;
+	position: relative;
+	top: -12px;
+	margin: 0px 17px;
+}
+
+.db_xinxi_right .erweima img {
+	height: 100px;
+	width: 100px;
+}
+
+.zhichi {
+	text-align: center;
+	background: #004a6c;
+	color: #FFFFFF;
+	padding: 35px 0px;
+	font-size: 14px;
+}
+
+.db_doahang a {
+	color: #FFFFFF;
+}
+
+.anli_kuai_top {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.anli_kuai_bottom {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.anli_kuai_top img {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.kuai_tu img {
+	border: none;
+}
+
+img {
+	border: none;
+}
+
+.gengduo {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	background: #26a3ea;
+	font-size: 18px;
+	margin: 0px auto;
+	margin-right: 530px;
+}
+
+.select{
+	color: #4d8eb5 !important;
+}
+/*建站动画*/
+
+@keyframes chanpinzhanshi1 {
+	0% {
+		position: relative;
+		top: -2px;
+	}
+	10% {
+		position: relative;
+		top: -4px;
+	}
+	20% {
+		position: relative;
+		top: -6px;
+	}
+	30% {
+		position: relative;
+		top: -8px;
+	}
+	/*初始状态 透明度为0*/
+	40% {
+		position: relative;
+		top: -10px;
+	}
+	50% {
+		position: relative;
+		top: -12px;
+	}
+	/*过渡状态 透明度为0*/
+	60% {
+		position: relative;
+		top: -14px;
+	}
+	70% {
+		position: relative;
+		top: -16px;
+	}
+	80% {
+		position: relative;
+		top: -18px;
+	}
+	90% {
+		position: relative;
+		top: -20px;
+	}
+	100% {
+		position: relative;
+		top: -20px;
+	}
+	/*结束状态 透明度为1*/
+}
+
+@-webkit-keyframes chanpinzhanshi1 {
+	/*针对webkit内核*/
+	0% {
+		color: #bbe6ff;
+	}
+	40% {
+		color: #92D7FF;
+	}
+	100% {
+		color: #00A2FF;
+	}
+}
+
+.chanpinzhanshi {
+	animation: chanpinzhanshi1;
+	/*动画名称*/
+	animation-duration: .4s;
+	/*动画持续时间*/
+	-webkit-animation: chanpinzhanshi1 .4s;
+}
+
+.chanpinzhanshi {
+	position: relative;
+	top: -20px;
+}
+
+.gengduo a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*首页图片变大*/
+
+.kuai_cp_tu img:hover {
+	transform: scale(1.4);
+	transition: all 2.5s;
+}
+
+.dingbu {
+	top: 55px;
+}
+
+.anli {
+	height: auto;
+    padding: 50px 0px;
+    background: #eff4f7;
+    padding-bottom: 25px;
+    overflow: auto;
+    padding: 50px 20px;
+}
+
+
+/*右侧悬浮栏*/
+
+.client-2 {
+	position: fixed;
+	right: -170px;
+	top: 50%;
+	z-index: 900;
+}
+
+.client-2 li a {
+	text-decoration: none;
+}
+
+.client-2 li {
+	margin-top: 1px;
+	clear: both;
+	height: 55px;
+	position: relative;
+	margin-bottom: 21px;
+}
+
+.client-2 li i {
+	background: url(../images/fx.png) no-repeat;
+	display: block;
+	width: 30px;
+	height: 27px;
+	margin: 0px auto;
+	text-align: center;
+	background-size: 62px;
+}
+
+.client-2 li p {
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+}
+
+.client-2 .my-kefu-qq i {
+	background-position: 4px 5px;
+}
+
+.client-2 .my-kefu-tel i {
+	background-position: 0 -21px;
+}
+
+.client-2 .my-kefu-liuyan i {
+	background-position: 4px -53px;
+}
+
+.client-2 .my-kefu-weixin i {
+	background-position: -34px 4px;
+}
+
+.client-2 .my-kefu-weibo i {
+	background-position: -30px -22px;
+}
+
+.client-2 .my-kefu-ftop {
+	display: none;
+}
+
+.client-2 .my-kefu-ftop i {
+	width: 33px;
+	height: 35px;
+	background-position: -27px -51px;
+}
+
+.client-2 .my-kefu-left {
+	float: left;
+	width: 77px;
+	height: 47px;
+	position: relative;
+}
+
+.client-2 .my-kefu-tel-right {
+	font-size: 16px;
+	color: #fff;
+	float: left;
+	height: 24px;
+	line-height: 22px;
+	padding: 0 15px;
+	border-left: 1px solid #fff;
+	margin-top: 14px;
+}
+
+.client-2 .my-kefu-right {
+	width: 20px;
+}
+
+.client-2 .my-kefu-tel-main {
+	background: #5fc6ef;
+	color: #fff;
+	height: 56px;
+	width: 247px;
+	/*padding:9px 0 6px;
+            float: left;*/
+}
+
+.client-2 .my-kefu-main {
+	background: #5fc6ef;
+	width: 97px;
+	height: 56px;
+	position: relative;
+	/*padding:9px 0 6px;*/
+	float: left;
+}
+
+.client-2 .my-kefu-weixin-pic {
+	position: absolute;
+	left: -89px;
+	top: -12px;
+	display: none;
+	z-index: 333;
+}
+
+ul li {
+	list-style-type: none
+}
+
+.client-2 li i {
+	background: url(../img/gxtb.png) no-repeat;
+	display: block;
+	width: 30px;
+	height: 27px;
+	margin: 0px auto;
+	text-align: center;
+	background-size: 62px;
+}
+
+.my-kefu-weixin :hover .my-kefu-weixin-pic {
+	display: block;
+}
+
+.yewu_biaoti h3 a {
+	font-size: 14px;
+	color: #000;
+	margin-left: 15px;
+}
+
+.my-kefu-tel-main,
+.my-kefu-main {
+	padding-top: 8px;
+}
+
+
+/*悬浮代码*/
+
+
+/*轮播图代码*/
+
+.index_anli {
+	width: 100%;
+	height: 100%;
+}
+
+.index_anli .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.index_lunb {
+	width: 100%;
+	height: 100%;
+}
+
+.index_lunb {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.index_lunb .swiper-slide {
+	width: 100% !important;
+}
+
+.anli_kuai {
+	margin-right: 0px !important;
+	width: auto !important;
+}
+
+.anli_kuai_top,
+.anli_kuai_bottom {
+	height: auto !important;
+	overflow: hidden;
+}
+
+.biaoti {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.biaoti h2 {
+	font-size: 24px;
+	font-weight: 100 !important;
+}
+
+.swiper-pagination-bullet {
+	width: 11px;
+	height: 11px;
+}
+
+.waibianju {
+	padding-bottom: 60px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	    left: 120px !important;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+		    right: 120px !important;
+}
+.waibianju{
+	display: initial;
+    display: inline-block !important;
+    display: -ms-flexbox;
+    display: initial;
+}
+.abac{
+	    overflow: auto;
+    float: left;
+    width: 33.3%;
+}
+/*轮播图代码*/
+
+
+/*案例展示*/
+
+
+/*案例展示*/

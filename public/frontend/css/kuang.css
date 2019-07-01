@@ -1,0 +1,435 @@
+.shangpin {
+	overflow: hidden;
+	padding: 0rem 0.2rem;
+}
+
+.shangpin_kuai {
+	float: left;
+	width: 47.5%;
+	text-align: center;
+	padding: 0rem 0.1rem;
+	margin: 0.2rem 0rem;
+}
+
+.shangpin_kuai_tu img {
+	width: 100%;
+}
+
+.shangpin_kuai:nth-child(even) {
+	/*偶数行*/
+	float: right;
+}
+
+.shangpin_kuai_ming {
+	font-size: 0.35rem;
+	color: #484848;
+	height: 0.45rem;
+	overflow: hidden;
+}
+
+.shangpin_kuai_wang {
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+	color: #919191;
+}
+
+.juzhong {
+	overflow: hidden;
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.xiangmu_1 {
+	box-shadow: 0.1rem 0.12rem 0.3rem #c6dde2;
+	padding: 0rem 0.2rem;
+	position: relative;
+	top: -50px;
+	background: #fff;
+	width: 90%;
+}
+
+.xm_daohang {
+	padding: 0px 18px;
+}
+
+.xiangmu ul {
+	overflow: auto;
+	margin: 20px 0px;
+	padding: 0px 12px;
+}
+
+.xiangmu ul {
+	overflow: auto;
+	margin: 20px 0px;
+	padding: 0px 12px;
+}
+
+.xiangmu ul {
+	overflow: auto;
+	margin: 20px 0px;
+	padding: 0px 12px;
+}
+
+.xiangmu ul li {
+	float: left;
+	margin-right: 0.35rem;
+	list-style-type: none;
+	font-size: 0.3rem;
+	color: #212020;
+	line-height: 0.6rem;
+}
+
+.xiangmu ul li a {
+	color: #5b5b5b;
+	font-size: 0.3rem;
+	text-decoration: none;
+}
+
+.fenlei {
+	overflow: hidden;
+}
+
+
+/*正谦新闻*/
+
+.news {
+	padding: 0.3rem 0.3rem;
+}
+
+.news_kuai {
+	overflow: hidden;
+	padding: 0.45rem 0rem;
+	border-bottom: 0.02rem dashed #747474;
+}
+
+.news_kuai_bt {
+	overflow: hidden;
+	font-weight: 800;
+	font-size: 0.45rem;
+	margin: 0.3rem 0rem;
+}
+
+.kuai_bt_bt {
+	float: left;
+	color: #000;
+	font-weight: 800 !important;
+	font-size: 0.3rem;
+}
+
+.kuai_bt_sj {
+	float: right;
+	font-size: 0.3rem;
+	color: #727272;
+	font-weight: 100;
+}
+
+.news_kuai_nr {
+	height: 0.8rem;
+	font-size: 0.3rem;
+	overflow: hidden;
+	line-height: 0.4rem;
+	color: #666666;
+}
+
+
+/*地图*/
+
+input {
+	background: #F5F5F5;
+	border: none;
+}
+
+textarea {
+	background: #F5F5F5;
+	border: none;
+	width: 100%;
+	height: 2.7rem;
+	padding: 0.2rem;
+}
+
+.inputc_bottom {
+	overflow: hidden;
+	margin-bottom: 0.5rem;
+}
+
+.name,
+.tel {
+	float: left;
+	width: 45%;
+	height: 0.7rem;
+	padding-left: 0.2rem;
+}
+
+.name {
+	margin-right: 0.3rem;
+}
+
+.email {
+	width: 100%;
+	padding: 0rem 0.2rem;
+}
+
+.email {
+	height: 0.7rem;
+	margin: 0.3rem 0rem;
+}
+
+.inputc_top h3 {
+	font-size: 0.4rem;
+	color: #1e1e1e;
+	margin-bottom: 0.25rem;
+}
+
+.inputc_top p {
+	font-size: 0.33rem;
+	color: #888888;
+	line-height: 0.56rem;
+}
+
+.inputc_bottom h3 {
+	font-size: 0.34rem;
+	color: #888888;
+	margin-top: 0.4rem;
+	margin-bottom: 0.2rem;
+}
+
+.inputcc {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.inputc {
+	width: 96%;
+	background: #fff;
+	margin: 0px auto;
+	height: 100%;
+	padding: 0.3rem 0rem;
+	margin: 0.35rem auto;
+}
+
+
+/*设置input中的placeholder*/
+
+textarea,
+input::-webkit-input-placeholder {
+	font-size: 0.3rem;
+	color: #9c9c9c;
+}
+
+
+/* 使用webkit内核的浏览器 */
+
+textarea,
+input:-moz-placeholder {
+	font-size: 0.3rem;
+	color: #9c9c9c;
+}
+
+
+/* Firefox版本4-18 */
+
+textarea,
+input::-moz-placeholder {
+	font-size: 0.3rem;
+	color: #9c9c9c;
+}
+
+
+/* Firefox版本19+ */
+
+textarea,
+input:-ms-input-placeholder {
+	font-size: 0.3rem;
+	color: #9c9c9c;
+}
+
+
+/* IE浏览器 */
+
+
+/*其他sb页面*/
+
+.inputb {
+	overflow: hidden;
+	background: #f0f0f0
+}
+
+.inputbb {
+	width: 88%;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 0.5rem 0rem;
+}
+
+.inputb p {
+	font-size: 0.32rem;
+	color: #262626;
+}
+
+.shouji {
+	float: left;
+	width: 50%;
+	line-height: 0.6rem;
+}
+
+.shouji p {
+	float: left;
+}
+
+.shouji input {
+	width: 64%;
+	height: 0.6rem;
+	float: left;
+	font-size: 0.3rem;
+	padding-left: 0.2rem;
+}
+
+.inputb textarea {
+	margin-top: 0.2rem;
+	margin-bottom: 0.36rem;
+}
+
+.inputb textarea,
+input {
+	background: #FFFFFF;
+}
+
+.tishi img {
+	width: 100%;
+	margin-bottom: 0.2rem;
+}
+
+.tijiao {
+	background: #3B97B6;
+	color: #fff;
+	width: 3.5rem;
+	line-height: 0.65rem;
+	display: block;
+	margin: 1.1rem auto;
+	font-size: 0.3rem;
+}
+
+
+/*关于我们*/
+
+.shuzi3 {
+	height: 2.35rem;
+	margin: 0px auto;
+	background-size: 100% 100%;
+	text-align: center;
+	position: relative;
+}
+
+.shuzi3 img {
+	width: 2.6rem;
+}
+
+.shuzi3 h3 {
+	font-size: 0.55rem;
+	position: absolute;
+	width: 100%;
+	top: 0.35rem;
+}
+
+.shuzi3 p {
+	font-size: 0.5rem;
+	color: #3371BE;
+	margin-top: 0.05rem;
+	white-space: nowrap;
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	top: 0.97rem;
+}
+
+.yi {
+	padding: 0.8rem 0rem;
+}
+
+.yi_nr {
+	padding: 0rem 0.3rem;
+}
+
+.yi_nr p {
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.3rem;
+	color: #333333;
+	margin: 0.2rem 0rem;
+}
+
+.er {
+	padding: 0.9rem 0rem;
+	background: #F5F5F5;
+}
+
+.er_nr {
+	width: 92%;
+	margin: auto;
+}
+
+.er_nr img {
+	width: 100%;
+}
+
+.san {
+	padding: 1rem 0rem;
+	padding-top: 0.3rem;
+}
+
+
+
+.san_nr {
+	overflow: hidden;
+}
+
+.san_nr .san_nr_kuai {
+	float: left;
+	text-align: center;
+}
+
+.san_nr .san_nr_kuai img {
+	width: 100%;
+}
+
+.san_nr .name1 {
+	width: 100%;
+	font-size: 0.33rem;
+	font-weight: 800;
+	margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+
+.san_nr .zhiwu {
+	font-size: 0.3rem;
+	color: #6c6c6c;
+}
+
+
+/*四*/
+
+.si {
+	background-size: 100% 100%;
+	padding: 0.8rem 0rem;
+}
+
+.si_nr {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.si_nr_yi {
+	color: #dddddd;
+	background: rgba(255, 255, 255, 0.2196078431372549);
+	border-radius: 0.6rem;
+	padding: 0.3rem;
+	margin: 0.3rem 0rem;
+}
+
+.si_nr_yi p {
+	font-size: 0.3rem;
+	line-height: 0.47rem;
+}
+
+/*swiper*/
